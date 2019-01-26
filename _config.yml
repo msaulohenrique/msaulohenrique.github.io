@@ -10,7 +10,7 @@ author:
 #  youtubeUser:      your-id
 #  youtubeChannel:   your-id
 #  twitter:          your-id
-#  github:           msaulohenrique
+github:           msaulohenrique
 #  stackoverflow:    your-id
 #  quora:            your-id
 #  linkedin:         your-id
@@ -32,7 +32,7 @@ google-analytics:
 
 # Disqus
 disqus:
-  id:               "kiko-plus"
+  id:               "msaulohenrique"
 
 # URL
 url:                "https://msaulohenrique.github.io" # the base hostname & protocol for your site
@@ -55,14 +55,12 @@ kramdown:
 
 # Navigation
 nav:
-  - name:           "About"
+  - name:           "Sobre"
     url:            "/about"
-  - name:           "Archive"
+  - name:           "Arquivo"
     url:            "/archive"
   - name:           "Tags"
     url:            "/tags"
-  - name:           "Github"
-    url:            "https://github.com/AWEEKJ/Kiko-plus"
 
 # Sass
 sass:
