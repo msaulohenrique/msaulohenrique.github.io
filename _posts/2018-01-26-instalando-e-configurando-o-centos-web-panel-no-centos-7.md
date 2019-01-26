@@ -72,6 +72,7 @@ Vá em *CWP Settings > Yum Manager* e veja se há alguma atualização para ser 
 ```
 yum update -y
 ```
+Para configurar o SSL vá em *Security > SSL Generator*.
 
 ### Configurando o DNS
 Neste tutorial a máquina em que estou usando tem dois IPs, os quais vou configura-los como NS1 e NS2.
