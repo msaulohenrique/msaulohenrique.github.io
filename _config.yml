@@ -1,12 +1,12 @@
 # Basic
-name:               Saulo Henrique
+name:               "Saulo Henrique"
 
 author:
 #  facebook:         your-id
 #  youtubeUser:      your-id
 #  youtubeChannel:   your-id
 #  twitter:          your-id
-github:           msaulohenrique
+github:           "msaulohenrique"
 #  stackoverflow:    your-id
 #  quora:            your-id
 #  linkedin:         your-id
@@ -16,7 +16,7 @@ github:           msaulohenrique
 #  reddit:           your-id
 #  medium:           your-id
 #  tumblr:           your-id
-  email:            msaulohenrique@gmail.com
+  email:            "msaulohenrique@gmail.com"
 
 copyright:
   year:             2019
