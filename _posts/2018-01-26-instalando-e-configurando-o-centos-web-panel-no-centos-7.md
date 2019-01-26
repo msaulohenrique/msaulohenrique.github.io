@@ -80,4 +80,7 @@ Lembre-se que é preciso que o domínio esteja configurado.
 
 ## 3. Finalizando
 Concluimos nossa instalação e configuração, agora você pode configurar os pacotes de cada plano (*Package > Add Package*) e criar as contas (*User Accounts > New Accounts*).
+
+Vale ressaltar que aqui realizamos configurações básicas, podendo váriar conforme seu uso.
+
 Fiquem a vontade para realizar perguntar abaixo, ajudarei conforme puder.
