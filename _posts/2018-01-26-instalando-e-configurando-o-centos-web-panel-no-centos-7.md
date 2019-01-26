@@ -29,7 +29,7 @@ SSL: https://<ip ou hostname>:2031
 ```
 ### Instalando o PHP e PHP-FPM
 Vá no menu de navegações e busque por *PHP Settings > PHP-FPM Selector*, e selecione as versões mais recentes para cada PHP, conforme a imagem abaixo, e clique no botão *Star Compiler* e aguarde a conclusão.
-[Imgur](https://i.imgur.com/aK4NbsN.png)
+![Imgur](https://i.imgur.com/aK4NbsN.png)
 Você pode acompanhar em tempo real até a conclusão, através do comando no terminal:
 ```tail -f /var/log/php-selector-rebuild.log```
 
