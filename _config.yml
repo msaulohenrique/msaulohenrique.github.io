@@ -59,7 +59,7 @@ nav:
   - name:           "Tags"
     url:            "/tags"
   - name:           "Ouvir Rock FM"
-    url:            "#ListenButton"
+    url:            "https://gsavio.github.io/player-shoutcast-html5/"
 
 # Sass
 sass:
