@@ -8,7 +8,7 @@ comments: true
 share: true
 ---
 
-É muito comum dificuldades encontradas para instalação do CWP, no entanto, venho desmistificar de forma básica. Usaremos o CentoOS 7 neste tutorial.
+É muito comum dificuldades encontradas para instalação do CWP, no entanto, venho desmistificar de forma básica. Usaremos o CentOS 7 neste tutorial.
 
 ---
 
