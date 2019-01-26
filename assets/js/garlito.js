@@ -11,7 +11,7 @@
             ip : "",
             port: "",
             protocol: "http://",
-            emptyCoverImgUrl: "img/no-cover.jpg",
+            emptyCoverImgUrl: "assets/img/no-cover.jpg",
             autoplay:true,
             volume:0.5,
             popup:false,
