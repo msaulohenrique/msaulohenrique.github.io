@@ -43,7 +43,7 @@ tail -f /var/log/php-selector-rebuild.log
 ### Instalando o WebServers
 Vá no menu de navegações e busque por *WebServers Settings > Select WebServers*, e selecione a opção em que desejar, no meu caso estarei configurando conforme a imagem abaixo, pois quero o servidor otimizado para WordPress, o qual consome bastante recursos.
 
-![Imgur](https://i.imgur.com/uD4gIGf.png){: .center-image}
+![Imgur](https://i.imgur.com/zJoVVls.png){: .center-image}
 
 Clique no botão *Save & Rebuild Configuration* e aguarde a conclusão.
 
