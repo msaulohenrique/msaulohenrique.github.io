@@ -16,6 +16,7 @@ author:
 #  reddit:           your-id
 #  medium:           your-id
 #  tumblr:           your-id
+  spotify:          "msaulohenrique"
   email:            msaulohenrique@gmail.com
 
 copyright:
@@ -57,6 +58,8 @@ nav:
     url:            "/archive"
   - name:           "Tags"
     url:            "/tags"
+  - name:           "Ouvir Rock FM"
+    url:            "#ListenButton"
 
 # Sass
 sass:
