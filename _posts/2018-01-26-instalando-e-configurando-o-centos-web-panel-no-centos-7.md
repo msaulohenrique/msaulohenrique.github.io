@@ -1,44 +1,37 @@
 ---
 layout: post
-title: "A Full and Comprehensive Style Test"
-description: "Test post for style"
-date: 2016-08-15
-tags: [test, style]
+title: "Instalando e Configurando o CentOS Web Panel no CentOS 7"
+description: "Aprenda a fazer o básico no CWP"
+date: 2018-01-26
+tags: [centos,cwp]
 comments: true
 share: true
 ---
 
-Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
+É muito comum dificuldades encontradas para instalação do CWP, no entanto, venho desmistificar de forma básica. Usuaremos o CentoOS 7 neste tutorial.
 
 ---
 
-## 1. Header 
+## 1. Instalando
+Para iniciar a instalação certifique que o seu sistema esteja atualizado, para isso rode o comando:
+```yum update -y```
+Pois bem, antes de prosseguir certifique-se que tenha configurado o hostname corretamente, logo após, rode os comandos:
+```cd /usr/local/src
+wget http://centos-webpanel.com/cwp-el7-latest
+sh cwp-el7-latest
+```
+Agora é só aguardar a conclusão, sendo que no final da instalação será exibido algumas informações, como: endereço de acesso e senha root do MySQL.
 
-# Header 1
-
-## Header 2
-
-### Header 3
-
-#### Header 4
-
-##### Header 5
-
-###### Header 6
-
-### 1-1. Header Alignment 
-
-##### Left(Default)
-
-##### Center
-{: .center}
-
-##### Right
-{: .right}
-
-## 2. Body Text
-
-Lorem ipsum dolor sit amet, [test link](#) adipiscing elit. **This is strong.** Nullam dignissim convallis est. Quisque aliquam. *This is emphasized.* Donec faucibus. Nunc iaculis suscipit dui. 5<sup>3</sup> = 125. Water is H<sub>2</sub>O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. <u>Underline</u>. Maecenas ornare tortor. Donec sed tellus eget `COPY filename` sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, <del>Dinner’s at 5:00.</del> commodo vitae, feugiat in, nunc. Morbi imperdiet augue <mark>mark element</mark> quis tellus.
+## 2. Configurando
+Pois bem, instalação concluída, agora acesse o administrativo do CWP:
+```http://<ip ou hostname>:2030
+SSL: https://<ip ou hostname>:2031
+```
+### Instalando o PHP e PHP-FPM
+Vá no menu de navegações e busque por *PHP Settings > PHP-FPM Selector*, e selecione as versões mais recentes para cada PHP, conforme a imagem abaixo, e clique no botão *Star Compiler* e aguarde a conclusão.
+[Imgur](https://i.imgur.com/aK4NbsN.png)
+Você pode acompanhar em tempo real até a conclusão, através do comando no terminal:
+```tail -f /var/log/php-selector-rebuild.log```
 
 ## 3. Images
 
