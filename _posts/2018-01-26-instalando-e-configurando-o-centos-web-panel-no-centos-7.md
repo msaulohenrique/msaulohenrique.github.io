@@ -65,8 +65,6 @@ Clique em *Save changes*.
 
 Vá em *Security > Firewall Manager* e clique na opção *Enable Firewall*.
 
-Vá em *Security > Secure Processes* e clique na opção *Enable Firewal
-
 ### Configurando o CWP
 Vá em *CWP Settings > Edit Settings* e defina um email nas opções *Admin Email* e *CSF/LFD Alerts* e clique no botão *Save Changes*.
 
