@@ -14,7 +14,8 @@ share: true
 
 ## 1. Instalando
 Para iniciar a instalação certifique que o seu sistema esteja atualizado, para isso rode o comando:
-```yum update -y```
+```yum update -y
+```
 Pois bem, antes de prosseguir certifique-se que tenha configurado o hostname corretamente, logo após, rode os comandos:
 ```cd /usr/local/src
 wget http://centos-webpanel.com/cwp-el7-latest
@@ -29,9 +30,12 @@ SSL: https://<ip ou hostname>:2031
 ```
 ### Instalando o PHP e PHP-FPM
 Vá no menu de navegações e busque por *PHP Settings > PHP-FPM Selector*, e selecione as versões mais recentes para cada PHP, conforme a imagem abaixo, e clique no botão *Star Compiler* e aguarde a conclusão.
+
 ![Imgur](https://i.imgur.com/aK4NbsN.png)
+
 Você pode acompanhar em tempo real até a conclusão, através do comando no terminal:
-```tail -f /var/log/php-selector-rebuild.log```
+```tail -f /var/log/php-selector-rebuild.log
+```
 
 ## 3. Images
 
