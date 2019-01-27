@@ -14,4 +14,4 @@ share: true
 ## Resolvendo o problema
 Para resolver é bem simples, basta acessar o administrativo do CWP e ir em *Webserver Settings > Webserver Main Conf* e selecionar o checkbox *Rebuild all vhosts on save*, logo clique em *Save Changes*, agora aguarde a página retornar e tente acessar novamente o domínio ou subdomínio problemático.
 
-É um solucão bastante simples, pórem é um problema bastante chato e que atrapalhar bastante.
+É uma solucão bastante simples, pórem é um problema bastante chato e que atrapalhar bastante.
