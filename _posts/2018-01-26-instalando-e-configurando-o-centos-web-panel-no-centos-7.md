@@ -52,7 +52,7 @@ Vá no menu de navegações e busque por *Security > CSF Firewall*, clique no bo
 ```
 TESTING = "0"
 ```
-Por padrão o CWP vem vindo com o valor 0, mas lembre-se que se estiver 1, quer dizer que o modo de teste está ativo, por isso, sempre o mantenha com o valor 0.
+Por padrão o CWP está vindo com o valor 0, mas lembre-se que se estiver 1, quer dizer que o modo de teste está ativo, por isso, sempre o mantenha com o valor 0.
 Por questão de recomendação do próprio firewall vamos altera a linha:
 ```
 RESTRICT_SYSLOG = "0"
