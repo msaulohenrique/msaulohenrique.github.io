@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Instalando e Configurando o CentOS Web Panel no CentOS 7"
-description: "Aprenda a fazer o básico no CWP"
+description: "Aprenda a fazer uma instalação básica do CWP deixando pronta para seu uso."
 date: 2018-01-26
 tags: [centos,cwp]
 comments: true
