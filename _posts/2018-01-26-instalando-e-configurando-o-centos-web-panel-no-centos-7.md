@@ -32,7 +32,7 @@ http://<ip ou hostname>:2030
 SSL: https://<ip ou hostname>:2031
 ```
 ### Instalando o PHP e PHP-FPM
-Vá no menu de navegações e busque por *PHP Settings > PHP-FPM Selector*, e selecione as versões mais recentes para cada PHP, conforme a imagem abaixo, e clique no botão *Star Compiler* e aguarde a conclusão.
+Vá no menu de navegações e busque por *PHP Settings > PHP-FPM Selector*, e selecione as versões mais recentes para cada PHP, conforme a imagem abaixo, e clique no botão *Start Compiler* e aguarde a conclusão.
 
 ![Imgur](https://i.imgur.com/aK4NbsN.png){: .center-image}
 
@@ -82,6 +82,6 @@ Lembre-se que é preciso que o domínio esteja configurado.
 ## 3. Finalizando
 Concluimos nossa instalação e configuração, agora você pode configurar os pacotes de cada plano (*Package > Add Package*) e criar as contas (*User Accounts > New Accounts*).
 
-Vale ressaltar que aqui realizamos configurações básicas, podendo váriar conforme seu uso.
+Vale ressaltar que aqui realizamos configurações básicas, podendo variar conforme seu uso.
 
 Fiquem a vontade para realizar perguntar abaixo, ajudarei conforme puder.
