@@ -25,7 +25,7 @@ layout: default
 {% for post in paginator.posts %}
   <div class="list-post">
     {% if post.link %}
-    <a href="{{ post.link }}">
+    <a href="{{ post.link }}#disqus_thread">
     {% else %}
     <a href="{{ post.url | prepend: site.baseurl }}">
     {% endif %}  
