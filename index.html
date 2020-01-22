@@ -24,13 +24,10 @@ layout: default
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   <div class="list-post">
-    {% if post.link %}
-    <a href="{{ post.link }}">
-    {% else %}
-    <a href="{{ post.url | prepend: site.baseurl }}">
-    {% endif %}  
       <div class="list-post-date">
+        <i class="fas fa-calendar-day"></i>
         <time>{{ post.date | date_to_string }}</time>
+        <i class="fas fa-comment"></i>
         {% if post.link %}
         <a href="{{ post.link }}#disqus_thread">
         {% else %}
@@ -39,6 +36,11 @@ layout: default
           Comentários
         </a>
       </div>
+    {% if post.link %}
+    <a href="{{ post.link }}">
+    {% else %}
+    <a href="{{ post.url | prepend: site.baseurl }}">
+    {% endif %}  
       <div class="list-post-title">
         {{ post.title }}
       </div>
