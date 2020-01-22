@@ -25,9 +25,8 @@ layout: default
 {% for post in paginator.posts %}
   <div class="list-post">
       <div class="list-post-date">
-        <i class="fas fa-calendar-day"></i>
-        <time>{{ post.date | date_to_string }}</time>
-        <i class="fas fa-comment"></i>
+        <time><i class="fa fa-calendar-day"></i> {{ post.date | date_to_string }}</time>
+        <i class="fa fa-comment"></i>
         {% if post.link %}
         <a href="{{ post.link }}#disqus_thread">
         {% else %}
