@@ -19,13 +19,13 @@ layout: default
 
 <div class="list">
 {% if site.posts.size == 0 %}
-  <h2>No post found</h2>
+  <h2>Nenhum post encontrado</h2>
 {% else %}
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   <div class="list-post">
       <div class="list-post-date">
-        <time>{{ post.date | date_to_string }} </time>
+        <time>{{ post.date | date_to_string }}</time>
         
         <i class="fa fa-comment"></i>
         {% if post.link %}
@@ -59,7 +59,7 @@ layout: default
     <span class="list-pagination-previous">
       {% if paginator.previous_page %}
         <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous">
-          &#xE000; previous
+          &#xE000; anterior
         </a>
       {% else %}
 
@@ -69,7 +69,7 @@ layout: default
     <span class="list-pagination-next">
       {% if paginator.next_page %}
         <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">
-          next &#xE001;
+          próximo &#xE001;
         </a>
       {% else %}
 
