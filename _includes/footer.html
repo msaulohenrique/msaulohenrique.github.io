@@ -67,5 +67,5 @@
     {% endif %}
 
   </div>
-  © {{ site.copyright.year }} {{ site.copyright.name }}. All rights reserved.
+  &copy; {{ site.copyright.year }} <script>new Date().getFullYear()>{{ site.copyright.year }} &&document.write("-"+new Date().getFullYear());</script>, {{ site.copyright.name }}. All rights reserved.
 </div>
