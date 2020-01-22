@@ -2,7 +2,7 @@
 layout: post
 title: "Subdomínio criado apresentando 404 not found no CWP"
 description: "Corriga o erro 404 que é tido quando se cria/adiciona um novo subdomínio/domínio em uma conta no CentOS Web Panel."
-date: 2018-01-26
+date: 2019-01-26
 tags: [404,cwp,centos,subdomínio,domínio]
 comments: true
 share: true
