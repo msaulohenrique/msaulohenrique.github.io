@@ -70,16 +70,19 @@ var names1=["Santa Clara","Nova Esperança","Residencial Carlos Magno","Parque I
 var names2=["Novo Jardim Paulista","Vale do Araguaia","Terra Bela","Vila Chapadão","Milena","Jardim Paulista","Nova Fronteira","Paraíso Feliz I","Paraíso Feliz II","Vila Regina","Setor Sul","Serra Verde","Portal do Sul","Bueno","Marista","Aeroporto","Serrano II"];
 var bairro=document.getElementById('bairro');
 names1.concat(names2).sort(function(a,b){return a.localeCompare(b,'pt-BR')}).forEach(function(n){var o=document.createElement('option');o.value=n;o.textContent=n;bairro.appendChild(o)});
+var windows={1:{start:780,end:59},2:{start:60,end:779}};
+function humanMin(m){return String(Math.floor(m/60)).padStart(2,'0')+'h'+String(m%60).padStart(2,'0')}
+function within(m,w){return w.start<=w.end?(m>=w.start&&m<=w.end):(m>=w.start||m<=w.end)}
 function minNow(){var x=new Intl.DateTimeFormat('pt-BR',{timeZone:'America/Araguaina',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).format(new Date()).split(':');return Number(x[0])*60+Number(x[1])}
 function timeUpdate(){
  var dt=new Intl.DateTimeFormat('pt-BR',{timeZone:'America/Araguaina',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'}).format(new Date());document.getElementById('clock').textContent=dt;
  var v=bairro.value,r=names1.indexOf(v)>=0?1:names2.indexOf(v)>=0?2:0,m=minNow();
  document.getElementById('regionResult').textContent=r?'Região '+r:'Selecione um bairro';
- document.getElementById('timeResult').textContent=r===1?'13h até 00h59':r===2?'01h até 12h59':'—';
- var active=r===1?(m>=780||m<60):r===2?(m>=60&&m<780):false;
+ document.getElementById('timeResult').textContent=r?humanMin(windows[r].start)+' até '+humanMin(windows[r].end):'—';
+ var active=r?within(m,windows[r]):false;
  document.getElementById('activeResult').textContent=r?(active?'Dentro da janela PROGRAMADA — não confirma fluxo de água.':'Fora da janela programada para o bairro selecionado.'): 'Confira a lista para verificar a região.';
  document.getElementById('activeResult').style.color=active?'#7be9c8':'#b9c9d9';
- var pct=r===1?(m>=780?(m-780)/720:(m+660)/720):r===2?(m>=60?(m-60)/720:0):0;
+ var w=r?windows[r]:null;var length=w?((w.end-w.start+1440)%1440+1):720;var elapsed=w?((m-w.start+1440)%1440):0;var pct=active?elapsed/length:0;
  document.getElementById('timeFill').style.width=(Math.max(0,Math.min(100,pct*100)))+'%';
  document.getElementById('progressInfo').textContent=r?'Indicador de progresso da janela teórica, não medição da rede.':'';
 }
@@ -99,8 +102,9 @@ var fallback={
  {name:'Torneira solidária — setor Vila Regina',date:'20/10/2026',status:'Endereço não divulgado',description:'Morador disponibilizou água de cisterna a vizinhos. Reportagem não apresenta rua, número ou coordenadas confirmadas.',source:'https://portalimediato.com/cidades/paraiso/casal-instala-torneira-solidaria-para-fornecer-agua-a-moradores-durante-crise-hidrica-em-paraiso/',lat:null,lng:null,potable:false},
  {name:'Lava-jato solidário — estabelecimento de Marcelo Bernardo Pinto',date:'19/10/2026',status:'Endereço do ponto não confirmado',description:'Proprietário divulgou torneiras, banheiro e chuveiro gratuitos. O endereço exato deste ponto de retirada não está confirmado na reportagem.',source:'https://www.jornaldotocantins.com.br/cidades/exemplo-que-se-espalha-apos-torneira-solidaria-de-casal-novos-pontos-de-doac-o-de-agua-surgem-em-paraiso-1.3470211',lat:null,lng:null,potable:false}
  ]};
-var map=null, pinned=L?L.layerGroup():null;
+var map=null, pinned=window.L?L.layerGroup():null;
 function render(d){
+ if(d.regions&&d.regions.length>=2){var selected=bairro.value;names1=d.regions[0].neighborhoods||names1;names2=d.regions[1].neighborhoods||names2;d.regions.slice(0,2).forEach(function(r){var a=String(r.start||'').split(':'),b=String(r.end||'').split(':');if(a.length===2&&b.length===2){windows[r.number]={start:Number(a[0])*60+Number(a[1]),end:Number(b[0])*60+Number(b[1])}}});bairro.replaceChildren();var empty=E('option','', 'Escolha o bairro…');empty.value='';bairro.appendChild(empty);names1.concat(names2).sort(function(a,b){return a.localeCompare(b,'pt-BR')}).forEach(function(n){var o=E('option','',n);o.value=n;bairro.appendChild(o)});bairro.value=selected;timeUpdate()}
  document.getElementById('checked').textContent=(d.checked_at||'').split('-').reverse().join('/');
  var ns=document.getElementById('news'),ps=document.getElementById('pointList');ns.replaceChildren();ps.replaceChildren();
  (d.notices||[]).forEach(function(n){var el=E('article','note');el.appendChild(E('div','date',n.date+' · '+n.source));el.appendChild(E('h3','',n.title));el.appendChild(E('p','',n.description));link(el,n.url,'Ver publicação ↗','btn');ns.appendChild(el)});
