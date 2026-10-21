@@ -1,0 +1,107 @@
+{
+  "checked_at": "2026-10-21",
+  "status": "Rodízio informado pela BRK em 20/10; sem confirmação de fornecimento em tempo real",
+  "regions": [
+    {
+      "number": 1,
+      "start": "13:00",
+      "end": "00:59",
+      "neighborhoods": [
+        "Santa Clara",
+        "Nova Esperança",
+        "Residencial Carlos Magno",
+        "Parque Industrial",
+        "Paraíso dos Ipês",
+        "Jardim América",
+        "Parque dos Buritis",
+        "Limeira"
+      ]
+    },
+    {
+      "number": 2,
+      "start": "01:00",
+      "end": "12:59",
+      "neighborhoods": [
+        "Novo Jardim Paulista",
+        "Vale do Araguaia",
+        "Terra Bela",
+        "Vila Chapadão",
+        "Milena",
+        "Jardim Paulista",
+        "Nova Fronteira",
+        "Paraíso Feliz I",
+        "Paraíso Feliz II",
+        "Vila Regina",
+        "Setor Sul",
+        "Serra Verde",
+        "Portal do Sul",
+        "Bueno",
+        "Marista",
+        "Aeroporto",
+        "Serrano II"
+      ]
+    }
+  ],
+  "notices": [
+    {
+      "date": "20/10/2026",
+      "source": "BRK | Saneatins",
+      "title": "Plano de contingência detalha 11 poços adicionais",
+      "description": "Na reunião de 19/10, a concessionária informou ativação de 11 poços extras além de 13 existentes e manutenção do rodízio.",
+      "url": "https://brkambiental.com.br/tocantins/paraiso-do-tocantins/em-reuniao-com-autoridades-brk-saneatins-esclarece-duvidas-e-apresenta-acoes-para-mitigar-os-impactos-da-estiagem-em"
+    },
+    {
+      "date": "20/10/2026",
+      "source": "Prefeitura | informação reproduzida pela imprensa",
+      "title": "Situação de emergência por 180 dias; pedido de isenção",
+      "description": "Decreto 1.517/2026; o pedido municipal de suspensão das tarifas ainda não comprova concessão efetiva de isenção.",
+      "url": "https://tocantins.jornalopcao.com.br/noticias/em-meio-a-crise-sem-agua-paraiso-decreta-emergencia-por-180-dias-e-cobra-suspensao-de-tarifas-da-brk-entenda-o-caso-602749/"
+    },
+    {
+      "date": "20/10/2026",
+      "source": "Justiça | imprensa",
+      "title": "Decisão judicial exige providências emergenciais",
+      "description": "Decisão judicial determina medidas para garantir abastecimento alternativo aos moradores afetados.",
+      "url": "https://www.jornaldotocantins.com.br/cidades/justica-manda-brk-garantir-agua-em-paraiso-do-tocantins-1.3470459"
+    },
+    {
+      "date": "19/10/2026",
+      "source": "BRK | Saneatins",
+      "title": "BRK divulga esclarecimento sobre potabilidade",
+      "description": "A concessionária diz monitorar a água fornecida e orienta a comunicar alterações sensoriais.",
+      "url": "https://www.brkambiental.com.br/tocantins/aguiarnopolis/comunicado-3"
+    },
+    {
+      "date": "14/10/2026",
+      "source": "BRK | reprodução local",
+      "title": "Divulgado cronograma do rodízio por bairros",
+      "description": "Região 1 (13h–00h59) e Região 2 (01h–12h59); horários previstos não garantem água em cada residência.",
+      "url": "https://conexaoto.com.br/2026/10/14/racionamento-programado-de-agua-afeta-bairros-de-paraiso-do-tocantins"
+    }
+  ],
+  "points": [
+    {
+      "name": "Torneira solidária — setor Vila Regina",
+      "status": "Localização não verificada",
+      "date": "20/10/2026",
+      "description": "Iniciativa comunitária de distribuição de água de cisterna; reportagem não divulga endereço completo. Sem comprovação independente de potabilidade.",
+      "lat": null,
+      "lng": null,
+      "verified": false,
+      "potable": false,
+      "source": "https://portalimediato.com/cidades/paraiso/casal-instala-torneira-solidaria-para-fornecer-agua-a-moradores-durante-crise-hidrica-em-paraiso/"
+    },
+    {
+      "name": "Lava-jato solidário — iniciativa divulgada por Marcelo Bernardo Pinto",
+      "status": "Localização não verificada",
+      "date": "19/10/2026",
+      "description": "Oferta de torneiras, banheiro e chuveiro gratuitos; endereço exato do ponto não confirmado em reportagem. Não usar endereço cadastral de empresa como rota sem validação.",
+      "lat": null,
+      "lng": null,
+      "verified": false,
+      "potable": false,
+      "source": "https://www.jornaldotocantins.com.br/cidades/exemplo-que-se-espalha-apos-torneira-solidaria-de-casal-novos-pontos-de-doac-o-de-agua-surgem-em-paraiso-1.3470211"
+    }
+  ],
+  "methodology": "Data editorial é a data da última confirmação por fontes. Horários são planos publicados, não telemetria. Poços SIAGAS não são pontos de água de uso público. Rota somente quando endereço e acesso públicos forem verificados."
+}
