@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-10-21",
-  "status": "Rodízio informado pela BRK em 20/10; sem confirmação de fornecimento em tempo real",
+  "checked_at": "2026-10-23",
+  "status": "Rodízio continua sendo a última programação oficial localizada (BRK, 20/10); sem confirmação de normalização até a checagem de 23/10. Prefeitura anunciou três pontos públicos de água potável 24h em 22/10; disponibilidade operacional em tempo real não aferida.",
   "regions": [
     {
       "number": 1,
@@ -43,6 +43,27 @@
     }
   ],
   "notices": [
+    {
+      "date": "22/10/2026",
+      "source": "Prefeitura de Paraíso | comunicado reproduzido por Agência Tocantins",
+      "title": "Três pontos públicos de água potável anunciados para atendimento 24 horas",
+      "description": "A Prefeitura anunciou distribuição gratuita de água potável na UBS Araci Aires Parente (Setor Oeste), Complexo Poliesportivo Ademir Barbosa Rêgo (Setor Pouso Alegre) e Praça da Bíblia (junto à Prefeitura). Anúncio não constitui verificação de disponibilidade no momento da visita; coordenadas da saída de água não divulgadas.",
+      "url": "https://www.agenciatocantins.com.br/noticia/111957/paraiso-amplia-acesso-a-agua-potavel-com-mais-tres-pontos-de-distribuicao-24-horas"
+    },
+    {
+      "date": "22/10/2026",
+      "source": "Polícia Civil/SSP-TO | reportagem Jornal Primeira Página",
+      "title": "Investigação sobre qualidade da água e abastecimento",
+      "description": "Polícia Civil instaurou inquérito; amostras foram coletadas para análise física, química e microbiológica. Não foi localizado laudo conclusivo até a checagem de 23/10.",
+      "url": "https://jornalprimeirapaginato.com/enquanto-governo-envia-caminhoes-pipa-para-servicos-publicos-e-brk-moradores-de-paraiso-levam-agua-a-familias-por-conta-propria/"
+    },
+    {
+      "date": "21/10/2026",
+      "source": "Governo do Tocantins | Jornal do Tocantins",
+      "title": "Seis caminhões-pipa adicionais enviados",
+      "description": "Reforço divulgado de seis caminhões, totalizando 14 na operação: quatro para água potável e dez para abastecer a estrutura de tratamento. Não equivale a pontos fixos de distribuição gratuita.",
+      "url": "https://www.jornaldotocantins.com.br/cidades/paraiso-recebe-seis-caminh-es-pipa-veja-como-sera-reforcado-o-abastecimento-de-agua-1.3471054"
+    },
     {
       "date": "20/10/2026",
       "source": "BRK | Saneatins",
@@ -88,6 +109,47 @@
   ],
   "points": [
     {
+      "name": "Praça da Bíblia — distribuição municipal de água potável",
+      "status": "Ponto público anunciado · 24h",
+      "date": "22/10/2026",
+      "description": "Praça da Bíblia, ao lado da Prefeitura, região central de Paraíso. Distribuição gratuita de água potável anunciada pela Prefeitura em 22/10, 24h inclusive fins de semana. Local público identificado em cartografia; posição da torneira não publicada. Consulte antes de sair; não há telemetria de disponibilidade.",
+      "address": "Praça da Bíblia, Av. Transbrasiliana, Paraíso do Tocantins - TO",
+      "lat": null,
+      "lng": null,
+      "verified": true,
+      "potable": true,
+      "potability_basis": "Água potável segundo comunicado municipal; laudo específico do ponto não localizado.",
+      "place_id": "ChIJlQBQbNVPI5MR_C5GJ_Qqj9s",
+      "source": "https://www.agenciatocantins.com.br/noticia/111957/paraiso-amplia-acesso-a-agua-potavel-com-mais-tres-pontos-de-distribuicao-24-horas"
+    },
+    {
+      "name": "Complexo Poliesportivo Ademir Barbosa Rêgo — distribuição municipal",
+      "status": "Ponto público anunciado · 24h",
+      "date": "22/10/2026",
+      "description": "Complexo na Praça do Estudante, Setor Pouso Alegre. Distribuição gratuita de água potável anunciada pela Prefeitura em 22/10, 24h. Local do complexo confirmado por fontes municipais; posição da torneira não publicada. Consulte antes de sair.",
+      "address": "Complexo Ademir Barbosa Rêgo, Praça do Estudante, Setor Pouso Alegre, Paraíso do Tocantins - TO",
+      "lat": null,
+      "lng": null,
+      "verified": true,
+      "potable": true,
+      "potability_basis": "Água potável segundo comunicado municipal; laudo específico do ponto não localizado.",
+      "place_id": "ChIJMQMqtTxOI5MRcxxF83KZf3w",
+      "source": "https://www.agenciatocantins.com.br/noticia/111957/paraiso-amplia-acesso-a-agua-potavel-com-mais-tres-pontos-de-distribuicao-24-horas"
+    },
+    {
+      "name": "UBS Araci Aires Parente — distribuição municipal",
+      "status": "Ponto público anunciado · endereço em validação",
+      "date": "22/10/2026",
+      "description": "A Prefeitura anuncia ponto de água potável 24h na UBS Araci Aires Parente, indicada como Setor Oeste. Cadastro cartográfico ainda aponta endereço antigo no Centro (Rua Santos Dumont, 209), e a unidade mudou de sede em março/2026. Não fornecer rota até confirmar o endereço da nova sede.",
+      "address": "Setor Oeste, Paraíso do Tocantins - TO (rua e número ainda não confirmados)",
+      "lat": null,
+      "lng": null,
+      "verified": false,
+      "potable": true,
+      "potability_basis": "Água potável segundo comunicado municipal; laudo específico do ponto não localizado.",
+      "source": "https://www.agenciatocantins.com.br/noticia/111957/paraiso-amplia-acesso-a-agua-potavel-com-mais-tres-pontos-de-distribuicao-24-horas"
+    },
+    {
       "name": "Torneira solidária — setor Vila Regina",
       "status": "Localização não verificada",
       "date": "20/10/2026",
@@ -110,5 +172,5 @@
       "source": "https://www.jornaldotocantins.com.br/cidades/exemplo-que-se-espalha-apos-torneira-solidaria-de-casal-novos-pontos-de-doac-o-de-agua-surgem-em-paraiso-1.3470211"
     }
   ],
-  "methodology": "Data editorial é a data da última confirmação por fontes. Horários são planos publicados, não telemetria. Poços SIAGAS não são pontos de água de uso público. Rota somente quando endereço e acesso públicos forem verificados."
+  "methodology": "Data checked_at indica consulta editorial efetiva, não medição em tempo real. Rodízio = janelas anunciadas pela BRK em 20/10, não garantia de pressão. Locais públicos de água potável anunciados em 22/10 pela Prefeitura: 2 com identificação cartográfica pública por place_id e rotas à praça/complexo, não ao exato bico de água; UBS mudou de sede em março e rota fica bloqueada até endereço atualizado. Água potável é a classificação informada pela Prefeitura; não foi localizado laudo laboratorial específico dos pontos. Poços SIAGAS não são pontos de retirada. Iniciativas particulares sem endereço completo permanecem sem rota e sem comprovação de potabilidade."
 }
