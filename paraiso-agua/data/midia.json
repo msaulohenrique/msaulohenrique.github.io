@@ -1,0 +1,119 @@
+{
+  "updated_at": "2026-10-24",
+  "description": "Curadoria de vídeos jornalísticos e posts públicos diretamente relacionados à crise de água em Paraíso do Tocantins (outubro de 2026). Links de conteúdos originais, sem hospedagem de cópias nem reprodução automática.",
+  "videos": [
+    {
+      "id": "g1-rodizio",
+      "date": "2026-10-14",
+      "title": "Falta de água afeta moradores e cidade enfrenta rodízio",
+      "source": "TV Anhanguera · JA 1ª edição",
+      "duration": "7 min",
+      "theme": "Rodízio",
+      "description": "Impactos do rodízio sobre o comércio e os moradores de Paraíso.",
+      "url": "https://globoplay.globo.com/v/15057305/",
+      "provider": "Globoplay"
+    },
+    {
+      "id": "g1-justica",
+      "date": "2026-10-19",
+      "title": "Justiça dá prazo à BRK para garantir água aos moradores",
+      "source": "TV Anhanguera · JA 2ª edição",
+      "duration": "3 min",
+      "theme": "Direitos",
+      "description": "Decisão judicial após ação do Ministério Público do Tocantins.",
+      "url": "https://globoplay.globo.com/v/15103892/",
+      "provider": "Globoplay"
+    },
+    {
+      "id": "g1-crise",
+      "date": "2026-10-20",
+      "title": "Paraíso do Tocantins enfrenta crise no abastecimento",
+      "source": "TV Anhanguera · JA 1ª edição",
+      "duration": "4 min",
+      "theme": "Rodízio",
+      "description": "Reportagem sobre a crise e a determinação de fornecimento gratuito.",
+      "url": "https://globoplay.globo.com/v/15106281/",
+      "provider": "Globoplay"
+    },
+    {
+      "id": "g1-agua-gratis",
+      "date": "2026-10-20",
+      "title": "Justiça determina medidas de água gratuita",
+      "source": "TV Anhanguera · Bom Dia Tocantins",
+      "duration": "3 min",
+      "theme": "Direitos",
+      "description": "A decisão inclui exigência de plano de contingência para escassez hídrica.",
+      "url": "https://globoplay.globo.com/v/15105137/",
+      "provider": "Globoplay"
+    },
+    {
+      "id": "g1-policia",
+      "date": "2026-10-21",
+      "title": "Segurança Pública investiga falta de água em Paraíso",
+      "source": "TV Anhanguera · JA 1ª edição",
+      "duration": "1 min",
+      "theme": "Qualidade",
+      "description": "Notícia sobre o inquérito aberto para apurar problemas no abastecimento.",
+      "url": "https://globoplay.globo.com/v/15109717/",
+      "provider": "Globoplay"
+    },
+    {
+      "id": "g1-conta",
+      "date": "2026-10-21",
+      "title": "Como pedir revisão da conta durante o desabastecimento",
+      "source": "TV Anhanguera · JA 1ª edição",
+      "duration": "6 min",
+      "theme": "Direitos",
+      "description": "Orientações sobre direitos do consumidor em falhas no abastecimento.",
+      "url": "https://globoplay.globo.com/v/15109728/",
+      "provider": "Globoplay"
+    }
+  ],
+  "social": [
+    {
+      "id": "insta-caminhoes",
+      "date": "2026-10-21",
+      "source": "Prefeitura de Paraíso · Instagram",
+      "title": "Chegada de seis caminhões-pipa",
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/p/Dewhi4xkaze/",
+      "official_site": "https://paraiso.to.gov.br/paraiso-recebe-seis-caminhoes-pipa-para-reforcar-abastecimento-de-agua-durante-crise-hidrica/",
+      "assessment": "A publicação aparece entre as postagens incorporadas na página oficial da Prefeitura. A notícia no portal confirma os seis veículos; comentários do Instagram não foram verificados.",
+      "certainty": "Post relacionado pelo portal oficial"
+    },
+    {
+      "id": "insta-decreto",
+      "date": "2026-10-19",
+      "source": "Prefeitura de Paraíso · Instagram",
+      "title": "Reel sobre o decreto municipal de emergência",
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/reel/DeuH4DOReVp/",
+      "official_site": "https://paraiso.to.gov.br/prefeito-celso-morais-decreta-situacao-de-emergencia-por-seca-e-exige-da-brk-isencao-das-tarifas-de-agua-durante-crise-no-abastecimento/",
+      "assessment": "Reel listado na página oficial municipal, que também publica o Decreto 1.517/2026 e o pedido de isenção; a isenção não é confirmação de benefício concedido.",
+      "certainty": "Post relacionado pelo portal oficial"
+    }
+  ],
+  "channels": [
+    {
+      "title": "Instagram oficial da Prefeitura",
+      "url": "https://www.instagram.com/prefeituradeparaiso/",
+      "category": "Canal oficial"
+    },
+    {
+      "title": "Facebook oficial da Prefeitura",
+      "url": "https://www.facebook.com/prefeituradeparaiso",
+      "category": "Canal oficial"
+    },
+    {
+      "title": "Vídeos da TV Anhanguera no Globoplay",
+      "url": "https://globoplay.globo.com/ja-1a-edicao-to/t/XCFJv6Hf6d/",
+      "category": "Telejornal"
+    },
+    {
+      "title": "YouTube da Prefeitura",
+      "url": "https://www.youtube.com/c/PrefeituradePara%C3%ADsodoTocantins",
+      "category": "Canal oficial"
+    }
+  ],
+  "methodology": "A playlist reúne vídeos identificados por título e URL individuais no Globoplay; assistir pode exigir acesso à plataforma. Reels e posts do Instagram foram extraídos da seção de redes sociais da página oficial municipal, porém as postagens em si podem exigir login e seu texto integral não foi acessível; confirmação temática complementada por notícias oficiais do município. Notícias ou vídeos de moradores sem URL pública exata não são atribuídos a uma conta inventada. Não constitui prova de disponibilidade de água ou potabilidade."
+}
