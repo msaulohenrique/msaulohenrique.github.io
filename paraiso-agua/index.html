@@ -167,7 +167,7 @@ render(fallback);
 fetch('data/avisos.json?t='+Date.now(),{cache:'no-store'}).then(function(r){if(!r.ok)throw Error('Arquivo ainda não publicado');return r.json()}).then(render).catch(function(){document.getElementById('updateMessage').textContent='Exibindo dados locais de reserva, verificados em 21/10/2026.'});
 
 var mediaAll=[],mediaFiltered=[],mediaIndex=0;
-function mediaDate(iso){return /^\\d{4}-\\d{2}-\\d{2}$/.test(iso||'')?iso.split('-').reverse().join('/'):iso||'Data não informada'}
+function mediaDate(iso){return iso&&iso.length===10&&iso.charAt(4)==='-'?iso.split('-').reverse().join('/'):iso||'Data não informada'}
 function mediaListUpdate(){
  var term=(document.getElementById('mediaSearch').value||'').toLocaleLowerCase('pt-BR').trim(),theme=document.getElementById('mediaTheme').value;
  mediaFiltered=mediaAll.filter(function(v){return(!theme||v.theme===theme)&&(!term||(v.title+' '+v.description+' '+v.source).toLocaleLowerCase('pt-BR').includes(term))});
@@ -180,7 +180,7 @@ function mediaListUpdate(){
  document.getElementById('mediaCount').textContent=v?'Reportagem '+(mediaIndex+1)+' de '+mediaFiltered.length:'Sem resultados';
  document.getElementById('mediaMeta').textContent=v?mediaDate(v.date)+' · '+v.source+' · '+v.duration:'Altere o filtro.';
  document.getElementById('mediaDescription').textContent=v?v.description:'';
- var watch=document.getElementById('mediaWatch');watch.href=v&&/^https:\\/\\//.test(v.url)?v.url:'https://globoplay.globo.com/ja-1a-edicao-to/t/XCFJv6Hf6d/';watch.setAttribute('aria-disabled',v?'false':'true');
+ var watch=document.getElementById('mediaWatch');watch.href=v&&v.url&&v.url.indexOf('https://')===0?v.url:'https://globoplay.globo.com/ja-1a-edicao-to/t/XCFJv6Hf6d/';watch.setAttribute('aria-disabled',v?'false':'true');
  document.getElementById('mediaPrev').disabled=mediaIndex<=0;document.getElementById('mediaNext').disabled=mediaIndex>=mediaFiltered.length-1;
 }
 document.getElementById('mediaPrev').addEventListener('click',function(){mediaIndex=Math.max(0,mediaIndex-1);mediaListUpdate()});
