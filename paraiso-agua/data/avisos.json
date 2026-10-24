@@ -52,10 +52,10 @@
     },
     {
       "date": "22/10/2026",
-      "source": "Prefeitura de Paraíso | comunicado reproduzido por Agência Tocantins",
+      "source": "Prefeitura Municipal de Paraíso do Tocantins · notícia oficial",
       "title": "Três pontos públicos de água potável anunciados para atendimento 24 horas",
       "description": "A Prefeitura anunciou distribuição gratuita de água potável na UBS Araci Aires Parente (Setor Oeste), Complexo Poliesportivo Ademir Barbosa Rêgo (Setor Pouso Alegre) e Praça da Bíblia (junto à Prefeitura). Anúncio não constitui verificação de disponibilidade no momento da visita; coordenadas da saída de água não divulgadas.",
-      "url": "https://www.agenciatocantins.com.br/noticia/111957/paraiso-amplia-acesso-a-agua-potavel-com-mais-tres-pontos-de-distribuicao-24-horas"
+      "url": "https://paraiso.to.gov.br/paraiso-amplia-acesso-a-agua-potavel-com-mais-tres-pontos-de-distribuicao-24-horas/"
     },
     {
       "date": "22/10/2026",
@@ -66,10 +66,10 @@
     },
     {
       "date": "21/10/2026",
-      "source": "Governo do Tocantins | Jornal do Tocantins",
+      "source": "Prefeitura Municipal de Paraíso do Tocantins · notícia oficial",
       "title": "Seis caminhões-pipa adicionais enviados",
       "description": "Reforço divulgado de seis caminhões, totalizando 14 na operação: quatro para água potável e dez para abastecer a estrutura de tratamento. Não equivale a pontos fixos de distribuição gratuita.",
-      "url": "https://www.jornaldotocantins.com.br/cidades/paraiso-recebe-seis-caminh-es-pipa-veja-como-sera-reforcado-o-abastecimento-de-agua-1.3471054"
+      "url": "https://paraiso.to.gov.br/paraiso-recebe-seis-caminhoes-pipa-para-reforcar-abastecimento-de-agua-durante-crise-hidrica/"
     },
     {
       "date": "20/10/2026",
@@ -87,10 +87,10 @@
     },
     {
       "date": "20/10/2026",
-      "source": "Prefeitura | informação reproduzida pela imprensa",
+      "source": "Prefeitura Municipal de Paraíso do Tocantins · notícia oficial",
       "title": "Situação de emergência por 180 dias; pedido de isenção",
       "description": "Decreto 1.517/2026; o pedido municipal de suspensão das tarifas ainda não comprova concessão efetiva de isenção.",
-      "url": "https://tocantins.jornalopcao.com.br/noticias/em-meio-a-crise-sem-agua-paraiso-decreta-emergencia-por-180-dias-e-cobra-suspensao-de-tarifas-da-brk-entenda-o-caso-602749/"
+      "url": "https://paraiso.to.gov.br/prefeito-celso-morais-decreta-situacao-de-emergencia-por-seca-e-exige-da-brk-isencao-das-tarifas-de-agua-durante-crise-no-abastecimento/"
     },
     {
       "date": "20/10/2026",
@@ -127,7 +127,7 @@
       "potable": true,
       "potability_basis": "Água potável segundo comunicado municipal; laudo específico do ponto não localizado.",
       "place_id": "ChIJlQBQbNVPI5MR_C5GJ_Qqj9s",
-      "source": "https://www.agenciatocantins.com.br/noticia/111957/paraiso-amplia-acesso-a-agua-potavel-com-mais-tres-pontos-de-distribuicao-24-horas"
+      "source": "https://paraiso.to.gov.br/paraiso-amplia-acesso-a-agua-potavel-com-mais-tres-pontos-de-distribuicao-24-horas/"
     },
     {
       "name": "Complexo Poliesportivo Ademir Barbosa Rêgo — distribuição municipal",
@@ -141,7 +141,7 @@
       "potable": true,
       "potability_basis": "Água potável segundo comunicado municipal; laudo específico do ponto não localizado.",
       "place_id": "ChIJMQMqtTxOI5MRcxxF83KZf3w",
-      "source": "https://www.agenciatocantins.com.br/noticia/111957/paraiso-amplia-acesso-a-agua-potavel-com-mais-tres-pontos-de-distribuicao-24-horas"
+      "source": "https://paraiso.to.gov.br/paraiso-amplia-acesso-a-agua-potavel-com-mais-tres-pontos-de-distribuicao-24-horas/"
     },
     {
       "name": "UBS Araci Aires Parente — distribuição municipal",
@@ -154,7 +154,7 @@
       "verified": false,
       "potable": true,
       "potability_basis": "Água potável segundo comunicado municipal; laudo específico do ponto não localizado.",
-      "source": "https://www.agenciatocantins.com.br/noticia/111957/paraiso-amplia-acesso-a-agua-potavel-com-mais-tres-pontos-de-distribuicao-24-horas"
+      "source": "https://paraiso.to.gov.br/paraiso-amplia-acesso-a-agua-potavel-com-mais-tres-pontos-de-distribuicao-24-horas/"
     },
     {
       "name": "Torneira solidária — setor Vila Regina",
@@ -179,5 +179,5 @@
       "source": "https://www.jornaldotocantins.com.br/cidades/exemplo-que-se-espalha-apos-torneira-solidaria-de-casal-novos-pontos-de-doac-o-de-agua-surgem-em-paraiso-1.3470211"
     }
   ],
-  "methodology": "Data checked_at indica consulta editorial efetiva, não medição em tempo real. Rodízio = janelas anunciadas pela BRK em 20/10, não garantia de pressão. Locais públicos de água potável anunciados em 22/10 pela Prefeitura: 2 com identificação cartográfica pública por place_id e rotas à praça/complexo, não ao exato bico de água; UBS mudou de sede em março e rota fica bloqueada até endereço atualizado. Água potável é a classificação informada pela Prefeitura; não foi localizado laudo laboratorial específico dos pontos. Poços SIAGAS não são pontos de retirada. Iniciativas particulares sem endereço completo permanecem sem rota e sem comprovação de potabilidade. Checagem editorial de 24/10/2026: não foi localizada alteração pública confirmada do rodízio após a nota BRK de 20/10. Decreto estadual nº 7.253/2026 confirmado em reprodução do Diário Oficial de 22/10; não comprova retorno de água em residências. Lista de bairros da Região 2 diverge entre fontes locais (Jardim Universitário citado em reportagem de 14/10 e outros bairros no cadastro anterior); confirmar junto à BRK antes de tratar a listagem como exaustiva."
+  "methodology": "Data checked_at indica consulta editorial efetiva, não medição em tempo real. Rodízio = janelas anunciadas pela BRK em 20/10, não garantia de pressão. Locais públicos de água potável anunciados em 22/10 pela Prefeitura: 2 com identificação cartográfica pública por place_id e rotas à praça/complexo, não ao exato bico de água; UBS mudou de sede em março e rota fica bloqueada até endereço atualizado. Água potável é a classificação informada pela Prefeitura; não foi localizado laudo laboratorial específico dos pontos. Poços SIAGAS não são pontos de retirada. Iniciativas particulares sem endereço completo permanecem sem rota e sem comprovação de potabilidade. Checagem editorial de 24/10/2026: não foi localizada alteração pública confirmada do rodízio após a nota BRK de 20/10. Decreto estadual nº 7.253/2026 confirmado em reprodução do Diário Oficial de 22/10; não comprova retorno de água em residências. Lista de bairros da Região 2 diverge entre fontes locais (Jardim Universitário citado em reportagem de 14/10 e outros bairros no cadastro anterior); confirmar junto à BRK antes de tratar a listagem como exaustiva. Em 24/10 foi incorporada curadoria de reportagens e publicações públicas oficiais em data/midia.json; links municipais de pontos de água, caminhões e decreto foram substituídos por fontes primárias do portal da Prefeitura; não houve alteração independente do rodízio."
 }
