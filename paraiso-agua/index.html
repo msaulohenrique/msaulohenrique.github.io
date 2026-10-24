@@ -27,13 +27,22 @@ select{color:var(--tx);background:#223e58;border:1px solid #4f6680;padding:12px;
 .notice-list{display:grid;gap:10px}.note{padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:#172d46}.note .date{font-size:11px;color:var(--green);font-weight:800}.note h3{font-size:15px;margin:7px 0}.note p{font-size:13px;color:#c7d8e7;margin:0 0 9px}.footer{font-size:12px;border-top:1px solid #36516a;margin-top:28px;padding-top:18px;color:#a9bed0}
 #wellStatus,#coord,#mapInfo{font-size:12px;color:#a9d2dc;line-height:1.45}.leaflet-container{font-family:system-ui,sans-serif}.legend{position:absolute;bottom:12px;left:13px;z-index:500;background:#fffffff0;border-radius:7px;color:#163048;font-size:11px;padding:8px 10px;pointer-events:none}
 .links{display:flex;flex-wrap:wrap;gap:8px}
+.media-layout{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:16px}
+.media-feature{background:linear-gradient(135deg,#112940,#183b53);border:1px solid #38617a;border-radius:15px;padding:19px;min-width:0}
+.media-screen{background:radial-gradient(ellipse at 55% 40%,#185b76,#0b2037 65%);min-height:185px;border:1px solid #2c6880;border-radius:13px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:17px;margin-bottom:13px}
+.media-play{font-size:43px;line-height:1.2;color:#85eedb}.media-count{font-size:12px;color:var(--mute)}.media-screen h3{font-size:20px;margin:9px 0 4px}
+.media-results{max-height:430px;overflow:auto;display:grid;gap:9px;align-content:start}.media-entry{border:1px solid var(--line);border-radius:10px;padding:12px;text-align:left;color:var(--tx);background:#18324d;cursor:pointer;width:100%}.media-entry:hover,.media-entry[aria-current="true"]{background:#234c63;border-color:#84dfd0}
+.media-entry b{display:block;font-size:13px}.media-entry small{color:var(--mute);font-size:11px}.media-controls{display:grid;grid-template-columns:1fr 1fr;gap:9px}.media-controls input,.media-controls select{margin:0;padding:10px;background:#223e58;border:1px solid #4f6680;border-radius:9px;color:#eef7ff;width:100%;font:inherit}.media-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:12px}
+.social-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.social-item{background:#172d46;border:1px solid var(--line);border-radius:13px;padding:16px}.social-item h3{font-size:16px;margin:5px 0}.social-item p{color:#c9dae9;font-size:13px}
+@media(max-width:800px){.media-layout,.social-grid{grid-template-columns:1fr}.media-results{max-height:420px}}
+
 @media(max-width:1050px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.layout{grid-template-columns:1fr}.map-card{order:-1}#map{height:52vh;min-height:370px}}
 @media(max-width:620px){header{padding:18px 16px}.top{flex-wrap:wrap}main{padding:14px 10px 50px}.card{padding:13px}.big{font-size:21px}.cards{gap:8px}nav a{font-size:12px;padding:8px}h1{font-size:30px}#map{min-height:390px} .stamp{width:100%}}
 </style>
 </head>
 <body>
 <header><div class="top"><div class="brand"><div class="eyebrow">Observatório independente · Tocantins</div><h1>Paraíso <span style="color:#82efd1">Água</span></h1><p>Rodízio de abastecimento, iniciativas solidárias, notificações oficiais e atlas dos aquíferos e poços de Paraíso do Tocantins.</p></div><div class="stamp">🗓️ Dados verificados em <strong id="checked">21/10/2026</strong><br>🕒 Relógio local: <strong id="clock">—</strong><br>Não é telemetria da rede da BRK.</div></div>
-<nav><a href="#situacao">Situação</a><a href="#atlas">Mapa hidrogeológico</a><a href="#pontos">Água gratuita</a><a href="#avisos">Últimos avisos</a><a href="#fontes">Fontes</a></nav></header>
+<nav><a href="#situacao">Situação</a><a href="#atlas">Mapa hidrogeológico</a><a href="#pontos">Água gratuita</a><a href="#avisos">Últimos avisos</a><a href="#midia">Vídeos e redes sociais</a><a href="#fontes">Fontes</a></nav></header>
 <main>
 <section id="situacao">
 <div class="cards">
@@ -59,6 +68,43 @@ select{color:var(--tx);background:#223e58;border:1px solid #4f6680;padding:12px;
 </section>
 <section class="section" id="pontos"><div class="eyebrow">Solidariedade e deslocamento</div><h2>Onde conseguir água gratuita?</h2><p class="subtitle">Só apresentamos rota exata quando há endereço ou coordenadas verificadas. Novos pontos podem ser adicionados ao boletim diário após confirmação.</p><div id="pointList"></div><div class="notice">⚠️ <b>Potabilidade:</b> a divulgação de água gratuita não comprova qualidade para beber. Para consumo humano, confirme tratamento e resultados de análise apropriados. Não confunda caminhões-pipa que transportam água bruta com distribuição ao público.</div></section>
 <section class="section" id="avisos"><div class="eyebrow">Widget de atualizações</div><h2>Últimos comunicados e decisões</h2><p class="subtitle">Informações com datas e links para a publicação original. O conteúdo abaixo é atualizado quando há verificação; não é um feed oficial contínuo.</p><div class="notice-list" id="news"></div><p class="small" id="updateMessage"></p></section>
+
+<section class="section" id="midia">
+  <div class="eyebrow">Acervo audiovisual e redes</div>
+  <h2>📺 Reportagens e publicações sobre a crise</h2>
+  <p class="subtitle">Playlist editorial com vídeos individuais confirmados da TV Anhanguera e publicações oficiais da Prefeitura. Os vídeos abrem na plataforma de origem; não são re-hospedados nem garantem reprodução sem login.</p>
+  <div class="media-layout">
+    <div class="media-feature">
+      <div class="eyebrow">Playlist de reportagens</div>
+      <div class="media-screen" aria-live="polite">
+        <div class="media-play" aria-hidden="true">▶</div>
+        <div class="media-count" id="mediaCount">Carregando playlist…</div>
+        <h3 id="mediaTitle">Reportagens sobre Paraíso</h3>
+        <span class="small" id="mediaMeta"></span>
+      </div>
+      <p id="mediaDescription" class="small">Escolha uma reportagem na lista.</p>
+      <div class="media-actions">
+        <a class="btn main" href="https://globoplay.globo.com/ja-1a-edicao-to/t/XCFJv6Hf6d/" rel="noopener noreferrer" target="_blank" id="mediaWatch">▶ Assistir na fonte ↗</a>
+        <button type="button" class="btn" id="mediaPrev">← Anterior</button>
+        <button type="button" class="btn" id="mediaNext">Próxima →</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="eyebrow">Selecione a matéria</div>
+      <div class="media-controls">
+        <input id="mediaSearch" type="search" aria-label="Buscar reportagens" placeholder="Buscar reportagem…" maxlength="100">
+        <select id="mediaTheme" aria-label="Filtrar assunto"><option value="">Todos os temas</option><option>Rodízio</option><option>Qualidade</option><option>Direitos</option></select>
+      </div>
+      <p class="small" style="margin:10px 0">Escolha uma matéria para ver detalhes e abrir o vídeo original.</p>
+      <div id="mediaList" class="media-results"><div class="small">Consultando acervo editorial…</div></div>
+    </div>
+  </div>
+  <h2 style="margin-top:23px">📱 Redes sociais e fontes originais</h2>
+  <p class="subtitle">Publicações oficiais identificadas por links no portal municipal. O Instagram pode exigir login; o conteúdo integral de comentários e stories não foi verificado.</p>
+  <div id="socialList" class="social-grid"><div class="small">Carregando publicações…</div></div>
+  <h3 style="margin-top:20px">Canais para acompanhar</h3><div class="links" id="socialChannels"></div>
+  <p class="small" id="mediaUpdated">Datas correspondem à publicação do conteúdo, não a confirmação em tempo real do abastecimento.</p>
+</section>
 <section class="section" id="fontes"><div class="eyebrow">Acesso direto</div><h2>Instituições e canais</h2><div class="links"><a class="btn main" target="_blank" rel="noopener" href="https://brkambiental.com.br/tocantins/paraiso-do-tocantins">BRK Paraíso ↗</a><a class="btn" target="_blank" rel="noopener" href="https://paraiso.to.gov.br/">Prefeitura ↗</a><a class="btn" target="_blank" rel="noopener" href="https://www.to.gov.br/">Governo TO ↗</a><a class="btn" target="_blank" rel="noopener" href="https://www.mpto.mp.br/">MPTO ↗</a><a class="btn" target="_blank" rel="noopener" href="https://www.paraisodotocantins.to.leg.br/">Câmara ↗</a><a class="btn" href="tel:08006440195">Ligar BRK 0800 644 0195</a></div></section>
 <div class="footer">Projeto independente de utilidade pública. Fontes citadas junto a cada aviso. Dados geográficos de ANA/SNIRH, IBGE, SGB/SIAGAS e OpenStreetMap. Não vinculado à Prefeitura nem à BRK. A exibição de informações antigas é identificada por data, e nenhuma estimativa do rodízio substitui a confirmação da concessionária.</div>
 </main>
@@ -119,6 +165,36 @@ function render(d){
 }
 render(fallback);
 fetch('data/avisos.json?t='+Date.now(),{cache:'no-store'}).then(function(r){if(!r.ok)throw Error('Arquivo ainda não publicado');return r.json()}).then(render).catch(function(){document.getElementById('updateMessage').textContent='Exibindo dados locais de reserva, verificados em 21/10/2026.'});
+
+var mediaAll=[],mediaFiltered=[],mediaIndex=0;
+function mediaDate(iso){return /^\\d{4}-\\d{2}-\\d{2}$/.test(iso||'')?iso.split('-').reverse().join('/'):iso||'Data não informada'}
+function mediaListUpdate(){
+ var term=(document.getElementById('mediaSearch').value||'').toLocaleLowerCase('pt-BR').trim(),theme=document.getElementById('mediaTheme').value;
+ mediaFiltered=mediaAll.filter(function(v){return(!theme||v.theme===theme)&&(!term||(v.title+' '+v.description+' '+v.source).toLocaleLowerCase('pt-BR').includes(term))});
+ mediaIndex=Math.min(mediaIndex,Math.max(0,mediaFiltered.length-1));
+ var target=document.getElementById('mediaList');target.replaceChildren();
+ mediaFiltered.forEach(function(v,i){var b=E('button','media-entry');b.type='button';b.setAttribute('aria-current',i===mediaIndex?'true':'false');b.appendChild(E('small','',mediaDate(v.date)+' · '+v.duration+' · '+v.theme));b.appendChild(E('b','',v.title));b.addEventListener('click',function(){mediaIndex=i;mediaListUpdate()});target.appendChild(b)});
+ if(!mediaFiltered.length)target.appendChild(E('p','small','Nenhum vídeo corresponde ao filtro.'));
+ var v=mediaFiltered[mediaIndex];
+ document.getElementById('mediaTitle').textContent=v?v.title:'Nenhum vídeo selecionado';
+ document.getElementById('mediaCount').textContent=v?'Reportagem '+(mediaIndex+1)+' de '+mediaFiltered.length:'Sem resultados';
+ document.getElementById('mediaMeta').textContent=v?mediaDate(v.date)+' · '+v.source+' · '+v.duration:'Altere o filtro.';
+ document.getElementById('mediaDescription').textContent=v?v.description:'';
+ var watch=document.getElementById('mediaWatch');watch.href=v&&/^https:\\/\\//.test(v.url)?v.url:'https://globoplay.globo.com/ja-1a-edicao-to/t/XCFJv6Hf6d/';watch.setAttribute('aria-disabled',v?'false':'true');
+ document.getElementById('mediaPrev').disabled=mediaIndex<=0;document.getElementById('mediaNext').disabled=mediaIndex>=mediaFiltered.length-1;
+}
+document.getElementById('mediaPrev').addEventListener('click',function(){mediaIndex=Math.max(0,mediaIndex-1);mediaListUpdate()});
+document.getElementById('mediaNext').addEventListener('click',function(){mediaIndex=Math.min(mediaFiltered.length-1,mediaIndex+1);mediaListUpdate()});
+document.getElementById('mediaTheme').addEventListener('change',function(){mediaIndex=0;mediaListUpdate()});
+document.getElementById('mediaSearch').addEventListener('input',function(){mediaIndex=0;mediaListUpdate()});
+fetch('data/midia.json?t='+Date.now(),{cache:'no-store'}).then(function(r){if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(function(d){
+ mediaAll=d.videos||[];mediaListUpdate();
+ var social=document.getElementById('socialList');social.replaceChildren();
+ (d.social||[]).forEach(function(x){var el=E('article','social-item');el.appendChild(E('div','eyebrow',x.platform+' · '+mediaDate(x.date)));el.appendChild(E('h3','',x.title));el.appendChild(E('p','',x.assessment));el.appendChild(E('div','small','Verificação: '+x.certainty));var links=E('div','links');link(links,x.url,'Ver publicação original ↗');link(links,x.official_site,'Confirmar no portal oficial ↗');el.appendChild(links);social.appendChild(el)});
+ var chans=document.getElementById('socialChannels');chans.replaceChildren();(d.channels||[]).forEach(function(c){link(chans,c.url,c.title+' ↗')});
+ document.getElementById('mediaUpdated').textContent='Acervo conferido em '+mediaDate(d.updated_at)+'. Redes sociais podem exigir login. Relatos comunitários não verificados não alteram o rodízio oficial.';
+}).catch(function(){document.getElementById('mediaList').textContent='Não foi possível obter a playlist. Consulte o canal oficial da TV Anhanguera.';document.getElementById('socialList').textContent='As publicações estão temporariamente indisponíveis.'});
+
 if(!window.L){document.getElementById('mapInfo').textContent='Mapa indisponível: biblioteca de cartografia não carregou.';return}
 var pos=[-10.1752,-48.8868];map=L.map('map',{preferCanvas:true}).setView(pos,10);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap contributors'}).addTo(map);
