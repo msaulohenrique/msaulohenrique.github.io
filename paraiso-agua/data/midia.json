@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25",
+  "updated_at": "2026-10-26",
   "description": "Curadoria de vídeos jornalísticos e posts públicos diretamente relacionados à crise de água em Paraíso do Tocantins (outubro de 2026). Links de conteúdos originais, sem hospedagem de cópias nem reprodução automática.",
   "videos": [
     {
@@ -115,5 +115,5 @@
       "category": "Canal oficial"
     }
   ],
-  "methodology": "A playlist reúne vídeos identificados por título e URL individuais no Globoplay; assistir pode exigir acesso à plataforma. Reels e posts do Instagram foram extraídos da seção de redes sociais da página oficial municipal, porém as postagens em si podem exigir login e seu texto integral não foi acessível; confirmação temática complementada por notícias oficiais do município. Notícias ou vídeos de moradores sem URL pública exata não são atribuídos a uma conta inventada. Não constitui prova de disponibilidade de água ou potabilidade. Checagem 25/10: cobertura da TV Anhanguera sobre captação de água bruta no Parque das Águas foi localizada em reprodução jornalística datada de 24/10, porém não se confirmou URL individual da reportagem original no Globoplay. Por isso, não foi incluída na playlist como vídeo direto. Nenhum novo post de rede social com URL individual e conteúdo verificáveis nesta checagem."
+  "methodology": "A playlist reúne vídeos identificados por título e URL individuais no Globoplay; assistir pode exigir acesso à plataforma. Reels e posts do Instagram foram extraídos da seção de redes sociais da página oficial municipal, porém as postagens em si podem exigir login e seu texto integral não foi acessível; confirmação temática complementada por notícias oficiais do município. Notícias ou vídeos de moradores sem URL pública exata não são atribuídos a uma conta inventada. Não constitui prova de disponibilidade de água ou potabilidade. Checagem 25/10: cobertura da TV Anhanguera sobre captação de água bruta no Parque das Águas foi localizada em reprodução jornalística datada de 24/10, porém não se confirmou URL individual da reportagem original no Globoplay. Por isso, não foi incluída na playlist como vídeo direto. Nenhum novo post de rede social com URL individual e conteúdo verificáveis nesta checagem. Checagem de 26/10/2026: pesquisados vídeos do Globoplay/TV Anhanguera, YouTube e resultados públicos de Instagram/Facebook da Prefeitura, BRK e imprensa; não foi identificado novo vídeo individual com URL e data confirmadas nem novo post público verificável diretamente sobre abastecimento. Playlist e posts anteriores preservados sem duplicação. A data updated_at registra conferência editorial, não novas publicações."
 }
