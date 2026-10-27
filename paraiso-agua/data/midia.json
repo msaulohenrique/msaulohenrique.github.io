@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26",
+  "updated_at": "2026-10-27",
   "description": "Curadoria de vídeos jornalísticos e posts públicos diretamente relacionados à crise de água em Paraíso do Tocantins (outubro de 2026). Links de conteúdos originais, sem hospedagem de cópias nem reprodução automática.",
   "videos": [
     {
@@ -67,6 +67,28 @@
       "description": "Orientações sobre direitos do consumidor em falhas no abastecimento.",
       "url": "https://globoplay.globo.com/v/15109728/",
       "provider": "Globoplay"
+    },
+    {
+      "id": "g2-doacoes",
+      "date": "2026-10-20",
+      "title": "Doações e poços artesianos ajudam famílias em Paraíso do Tocantins",
+      "source": "TV Anhanguera · JA 2ª edição",
+      "duration": "7 min",
+      "theme": "Rodízio",
+      "description": "Moradores improvisam alternativas durante a crise; reportagem mostra doações e poços artesianos, sem comprovar potabilidade de fontes particulares.",
+      "url": "https://globoplay.globo.com/v/15107487/",
+      "provider": "Globoplay"
+    },
+    {
+      "id": "g2-policia",
+      "date": "2026-10-21",
+      "title": "Polícia Civil investiga água distribuída em Paraíso do Tocantins",
+      "source": "TV Anhanguera · JA 2ª edição",
+      "duration": "3 min",
+      "theme": "Qualidade",
+      "description": "Investigação aberta após relatos de odor incomum na água; não apresenta laudo conclusivo.",
+      "url": "https://globoplay.globo.com/v/15110808/",
+      "provider": "Globoplay"
     }
   ],
   "social": [
@@ -115,5 +137,5 @@
       "category": "Canal oficial"
     }
   ],
-  "methodology": "A playlist reúne vídeos identificados por título e URL individuais no Globoplay; assistir pode exigir acesso à plataforma. Reels e posts do Instagram foram extraídos da seção de redes sociais da página oficial municipal, porém as postagens em si podem exigir login e seu texto integral não foi acessível; confirmação temática complementada por notícias oficiais do município. Notícias ou vídeos de moradores sem URL pública exata não são atribuídos a uma conta inventada. Não constitui prova de disponibilidade de água ou potabilidade. Checagem 25/10: cobertura da TV Anhanguera sobre captação de água bruta no Parque das Águas foi localizada em reprodução jornalística datada de 24/10, porém não se confirmou URL individual da reportagem original no Globoplay. Por isso, não foi incluída na playlist como vídeo direto. Nenhum novo post de rede social com URL individual e conteúdo verificáveis nesta checagem. Checagem de 26/10/2026: pesquisados vídeos do Globoplay/TV Anhanguera, YouTube e resultados públicos de Instagram/Facebook da Prefeitura, BRK e imprensa; não foi identificado novo vídeo individual com URL e data confirmadas nem novo post público verificável diretamente sobre abastecimento. Playlist e posts anteriores preservados sem duplicação. A data updated_at registra conferência editorial, não novas publicações."
+  "methodology": "A playlist reúne vídeos identificados por título e URL individuais no Globoplay; assistir pode exigir acesso à plataforma. Reels e posts do Instagram foram extraídos da seção de redes sociais da página oficial municipal, porém as postagens em si podem exigir login e seu texto integral não foi acessível; confirmação temática complementada por notícias oficiais do município. Notícias ou vídeos de moradores sem URL pública exata não são atribuídos a uma conta inventada. Não constitui prova de disponibilidade de água ou potabilidade. Checagem 25/10: cobertura da TV Anhanguera sobre captação de água bruta no Parque das Águas foi localizada em reprodução jornalística datada de 24/10, porém não se confirmou URL individual da reportagem original no Globoplay. Por isso, não foi incluída na playlist como vídeo direto. Nenhum novo post de rede social com URL individual e conteúdo verificáveis nesta checagem. Checagem de 26/10/2026: pesquisados vídeos do Globoplay/TV Anhanguera, YouTube e resultados públicos de Instagram/Facebook da Prefeitura, BRK e imprensa; não foi identificado novo vídeo individual com URL e data confirmadas nem novo post público verificável diretamente sobre abastecimento. Playlist e posts anteriores preservados sem duplicação. A data updated_at registra conferência editorial, não novas publicações. Em 27/10 foram identificados no índice original do JA 2ª Edição dois vídeos de 20 e 21/10 com links individuais confirmados. Não foram encontradas postagens sociais novas com URL individual verificável; o acervo social anterior foi preservado."
 }
