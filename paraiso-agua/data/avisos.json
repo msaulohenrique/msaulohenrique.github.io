@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-10-26",
-  "status": "Checagem editorial de 26/10/2026 (manhã): não foi localizada nova nota oficial confirmando encerramento ou mudança do rodízio iniciado em 11/10. Permanecem como referência Região 1 13h–00h59 e Região 2 01h–12h59, apenas JANELAS PROGRAMADAS; não indicam pressão ou água disponível em cada residência. Última atualização operacional atribuída à BRK em 24/10 e reproduzida pela imprensa: 12 poços extras somados a 13 existentes (25 no total) e aproximadamente 2/3 da capacidade habitual, sem verificação independente. O TCETO publicou em 21/10 (atualizado 22/10) o Despacho 1022/2026 cobrando informações da ATR; segundo declaração da ATR à imprensa em 22/10, a agência prestou esclarecimentos e acompanha a situação, mas a nota não detalhou as fiscalizações. Três pontos municipais de água gratuita continuam anunciados desde 22/10, sem confirmação de estoque ou funcionamento em tempo real. Nenhum novo laudo específico de potabilidade dos pontos foi localizado.",
+  "checked_at": "2026-10-27",
+  "status": "Checagem de 27/10/2026 (manhã): permanece sem confirmação oficial de encerramento ou mudança do rodízio de 11/10 (Região 1 13h–00h59; Região 2 01h–12h59), horários apenas programados e sem medição de pressão por imóvel. BRK publicou em 26/10 comunicado primário com ações operacionais descritas como atualizações de 24/10: 13 poços originais e 12 extras ativados, bombeamento por balsa no Rio Coco, dois sistemas auxiliares, transporte de água bruta por nove caminhões-tanque ao tratamento, manobras 12h/12h, caminhões-pipa para unidades essenciais e residências e capacidade estimada pela empresa em cerca de dois terços da normal. Não é evidência de normalização. Imprensa local em 26/10 divulgou cinco pontos municipais gratuitos, incluindo dois não cadastrados anteriormente (Centro de Convenções no Setor Nova Fronteira e Creche Municipal Professora Maria do Carmo Ferreira em Paraíso dos Ipês). A água é descrita como potável e tratada pela Prefeitura, sem laudo individual publicado ou confirmação do estoque em tempo real. Rota para a creche usa endereço público cadastrado da instituição, não coordenada da torneira; o Centro de Convenções e a UBS seguem sem rota até localização atual suficientemente confirmada. Nenhum novo resultado pericial conclusivo, modificação oficial de bairros, nova postagem social individual verificável ou vídeo publicado em 27/10 foi localizado. Dois vídeos jornalísticos antigos foram identificados por URLs diretas e adicionados ao acervo.",
   "regions": [
     {
       "number": 1,
@@ -44,6 +44,20 @@
   ],
   "notices": [
     {
+      "date": "26/10/2026",
+      "source": "BRK | Saneatins — comunicado oficial publicado em 26/10, descrevendo medidas de 24/10",
+      "title": "BRK publica nota oficial sobre plano de contingência: 25 poços e capacidade parcial",
+      "description": "Nota publicada em 26/10 com ações de 24/10: 13 poços originais, 12 adicionais, captação com balsa no Rio Coco, dois sistemas auxiliares, nove caminhões de água bruta do Parque das Águas para ETA, abastecimento emergencial com caminhões-pipa, manobras 12h/12h. A empresa estima capacidade de cerca de dois terços da regular. Não há anúncio de normalização integral ou alteração das regiões/horários.",
+      "url": "https://www.brkambiental.com.br/tocantins/aguiarnopolis/atualizacao-falta-agua-paraiso-do-tocantins"
+    },
+    {
+      "date": "26/10/2026",
+      "source": "AF Notícias e Sou de Palmas — reportagens atribuindo informações à Prefeitura",
+      "title": "Imprensa identifica cinco pontos públicos municipais de água gratuita",
+      "description": "Reportagens de 26/10 citam cinco pontos anunciados desde 22/10: Praça da Bíblia, Complexo Ademir Rêgo, UBS Araci Aires Parente, Centro de Convenções (Nova Fronteira) e Creche Professora Maria do Carmo Ferreira (Paraíso dos Ipês). Segundo a Prefeitura, água de poço é tratada antes do transporte e reservatórios são reabastecidos duas vezes por dia; não houve verificação independente de estoque, potabilidade em cada ponto ou funcionamento atual.",
+      "url": "https://afnoticias.com.br/cidades/crise-hidrica-paraiso-instala-cinco-pontos-de-distribuicao-de-agua-com-funcionamento-24-horas"
+    },
+    {
       "date": "21/10/2026",
       "source": "Tribunal de Contas do Estado do Tocantins | nota oficial atualizada em 22/10",
       "title": "TCETO exige da ATR documentos sobre fiscalização da crise hídrica",
@@ -59,10 +73,10 @@
     },
     {
       "date": "24/10/2026",
-      "source": "BRK | Saneatins — nota de 24/10 reproduzida pela imprensa (TV Anhanguera/g1 e veículos locais)",
+      "source": "BRK | Saneatins — comunicado oficial de 26/10, ações datadas de 24/10",
       "title": "BRK atualiza contingência: 12 poços extras, cerca de 2/3 da capacidade regular",
-      "description": "Nota atribuída à BRK de 24/10 informa aprovação e ativação de 12 poços adicionais, além dos 13 originais; captação de água BRUTA do Parque das Águas transportada por caminhões-tanque para tratamento na ETA; manobras operacionais 12h/12h, interligação de reservatórios Universitário/Sul e obra de interligação Centro-Oeste em fase final. Segundo a empresa, as medidas mantêm aproximadamente dois terços da capacidade regular. NÃO equivale a abastecimento normalizado nem a confirmação de água em cada imóvel. A nota foi reproduzida em reportagem, sem publicação primária independente localizada nesta checagem.",
-      "url": "https://surgiu.com.br/2026/10/24/caminhoes-pipa-retiram-agua-do-parque-das-aguas-para-abastecer-paraiso-do-tocantins/"
+      "description": "Nota atribuída à BRK de 24/10 informa aprovação e ativação de 12 poços adicionais, além dos 13 originais; captação de água BRUTA do Parque das Águas transportada por caminhões-tanque para tratamento na ETA; manobras operacionais 12h/12h, interligação de reservatórios Universitário/Sul e obra de interligação Centro-Oeste em fase final. Segundo a empresa, as medidas mantêm aproximadamente dois terços da capacidade regular. NÃO equivale a abastecimento normalizado nem a confirmação de água em cada imóvel. A mesma relação de ações consta de nota primária da BRK publicada em 26/10, referindo-se às medidas de 24/10.",
+      "url": "https://www.brkambiental.com.br/tocantins/aguiarnopolis/atualizacao-falta-agua-paraiso-do-tocantins"
     },
     {
       "date": "22/10/2026",
@@ -178,6 +192,34 @@
       "source": "https://paraiso.to.gov.br/paraiso-amplia-acesso-a-agua-potavel-com-mais-tres-pontos-de-distribuicao-24-horas/"
     },
     {
+      "name": "Creche Municipal Professora Maria do Carmo Ferreira — distribuição municipal",
+      "status": "Ponto público anunciado · 24h · rota até escola (não torneira)",
+      "date": "26/10/2026",
+      "description": "Reportagens de 26/10 atribuem à Prefeitura ponto gratuito de água tratada na creche do setor Paraíso dos Ipês, em funcionamento anunciado 24h. Endereço da escola consta de cadastros educacionais: Rua 13, APM 411, Paraíso dos Ipês. Rota direciona à escola e não à torneira; não há coordenadas confirmadas do reservatório ou disponibilidade em tempo real.",
+      "address": "Rua 13, APM 411, Paraíso dos Ipês, Paraíso do Tocantins - TO",
+      "route_address": "Rua 13 APM 411, Paraíso dos Ipês, Paraíso do Tocantins - TO",
+      "lat": null,
+      "lng": null,
+      "verified": true,
+      "potable": true,
+      "potability_basis": "Tratamento e potabilidade declarados pela Prefeitura, conforme reportagens; sem laudo do ponto publicado.",
+      "source": "https://afnoticias.com.br/cidades/crise-hidrica-paraiso-instala-cinco-pontos-de-distribuicao-de-agua-com-funcionamento-24-horas",
+      "address_source": "https://www.escol.as/342748-creche-municipal-professora-maria-do-carmo-ferreira"
+    },
+    {
+      "name": "Centro de Convenções — distribuição municipal, Nova Fronteira",
+      "status": "Ponto público anunciado · 24h · rota pendente",
+      "date": "26/10/2026",
+      "description": "Reportagens de 26/10 atribuem à Prefeitura um ponto gratuito de água tratada no Centro de Convenções, Setor Nova Fronteira. O equipamento fica na região da Avenida José Otávio, mas não foi confirmado endereço completo ou posição do reservatório para rota segura. Não há verificação de estoque em tempo real.",
+      "address": "Centro de Convenções, Setor Nova Fronteira, Paraíso do Tocantins - TO (sem número confirmado)",
+      "lat": null,
+      "lng": null,
+      "verified": false,
+      "potable": true,
+      "potability_basis": "Tratamento e potabilidade declarados pela Prefeitura, conforme reportagens; sem laudo do ponto publicado.",
+      "source": "https://afnoticias.com.br/cidades/crise-hidrica-paraiso-instala-cinco-pontos-de-distribuicao-de-agua-com-funcionamento-24-horas"
+    },
+    {
       "name": "Torneira solidária — setor Vila Regina",
       "status": "Localização não verificada",
       "date": "20/10/2026",
@@ -200,5 +242,5 @@
       "source": "https://www.jornaldotocantins.com.br/cidades/exemplo-que-se-espalha-apos-torneira-solidaria-de-casal-novos-pontos-de-doac-o-de-agua-surgem-em-paraiso-1.3470211"
     }
   ],
-  "methodology": "Data checked_at indica consulta editorial efetiva, não medição em tempo real. Rodízio = janelas anunciadas pela BRK em 20/10, não garantia de pressão. Locais públicos de água potável anunciados em 22/10 pela Prefeitura: 2 com identificação cartográfica pública por place_id e rotas à praça/complexo, não ao exato bico de água; UBS mudou de sede em março e rota fica bloqueada até endereço atualizado. Água potável é a classificação informada pela Prefeitura; não foi localizado laudo laboratorial específico dos pontos. Poços SIAGAS não são pontos de retirada. Iniciativas particulares sem endereço completo permanecem sem rota e sem comprovação de potabilidade. Checagem editorial de 24/10/2026: não foi localizada alteração pública confirmada do rodízio após a nota BRK de 20/10. Decreto estadual nº 7.253/2026 confirmado em reprodução do Diário Oficial de 22/10; não comprova retorno de água em residências. Lista de bairros da Região 2 diverge entre fontes locais (Jardim Universitário citado em reportagem de 14/10 e outros bairros no cadastro anterior); confirmar junto à BRK antes de tratar a listagem como exaustiva. Em 24/10 foi incorporada curadoria de reportagens e publicações públicas oficiais em data/midia.json; links municipais de pontos de água, caminhões e decreto foram substituídos por fontes primárias do portal da Prefeitura; não houve alteração independente do rodízio. Checagem 25/10/2026: nota atribuída à BRK datada de 24/10 reproduzida em cobertura jornalística reporta 12 poços extras (um a mais que os 11 anunciados em 20/10), 13 originais e produção equivalente a cerca de dois terços da capacidade regular; sem URL primária da nota localizada. Não se alteraram horários ou bairros sem nova programação verificável. Fontes oficiais Prefeitura, BRK, Governo, MPTO, Procon e redes públicas pesquisadas; nenhum novo post individual com URL verificável ou vídeo com link original individual confirmado. Rotas de pontos não mudaram. Checagem editorial em 26/10/2026: buscas em BRK, Prefeitura, Governo, MPTO, ATR/ATS, TCETO, Polícia Civil/Procon, imprensa e resultados públicos de redes sociais não localizaram comunicado posterior verificável alterando o rodízio. Incluídas nota primária do TCETO (publicada 21/10 e atualizada 22/10) e declaração da ATR à imprensa de 22/10; nenhum vídeo individual novo ou novo ponto com coordenadas verificadas. checked_at refere-se à pesquisa editorial efetiva, não a monitoramento físico do abastecimento."
+  "methodology": "Data checked_at indica consulta editorial efetiva, não medição em tempo real. Rodízio = janelas anunciadas pela BRK em 20/10, não garantia de pressão. Locais públicos de água potável anunciados em 22/10 pela Prefeitura: 2 com identificação cartográfica pública por place_id e rotas à praça/complexo, não ao exato bico de água; UBS mudou de sede em março e rota fica bloqueada até endereço atualizado. Água potável é a classificação informada pela Prefeitura; não foi localizado laudo laboratorial específico dos pontos. Poços SIAGAS não são pontos de retirada. Iniciativas particulares sem endereço completo permanecem sem rota e sem comprovação de potabilidade. Checagem editorial de 24/10/2026: não foi localizada alteração pública confirmada do rodízio após a nota BRK de 20/10. Decreto estadual nº 7.253/2026 confirmado em reprodução do Diário Oficial de 22/10; não comprova retorno de água em residências. Lista de bairros da Região 2 diverge entre fontes locais (Jardim Universitário citado em reportagem de 14/10 e outros bairros no cadastro anterior); confirmar junto à BRK antes de tratar a listagem como exaustiva. Em 24/10 foi incorporada curadoria de reportagens e publicações públicas oficiais em data/midia.json; links municipais de pontos de água, caminhões e decreto foram substituídos por fontes primárias do portal da Prefeitura; não houve alteração independente do rodízio. Checagem 25/10/2026: nota atribuída à BRK datada de 24/10 reproduzida em cobertura jornalística reporta 12 poços extras (um a mais que os 11 anunciados em 20/10), 13 originais e produção equivalente a cerca de dois terços da capacidade regular; sem URL primária da nota localizada. Não se alteraram horários ou bairros sem nova programação verificável. Fontes oficiais Prefeitura, BRK, Governo, MPTO, Procon e redes públicas pesquisadas; nenhum novo post individual com URL verificável ou vídeo com link original individual confirmado. Rotas de pontos não mudaram. Checagem editorial em 26/10/2026: buscas em BRK, Prefeitura, Governo, MPTO, ATR/ATS, TCETO, Polícia Civil/Procon, imprensa e resultados públicos de redes sociais não localizaram comunicado posterior verificável alterando o rodízio. Incluídas nota primária do TCETO (publicada 21/10 e atualizada 22/10) e declaração da ATR à imprensa de 22/10; nenhum vídeo individual novo ou novo ponto com coordenadas verificadas. checked_at refere-se à pesquisa editorial efetiva, não a monitoramento físico do abastecimento. Checagem 27/10: nota primária BRK de 26/10 refere ações de 24/10; cinco pontos informados pela imprensa em 26/10, sem confirmação de estoque em tempo real; rota à creche baseada em endereço escolar público, não em coordenada de torneira."
 }
