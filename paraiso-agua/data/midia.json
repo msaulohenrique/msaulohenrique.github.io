@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27",
+  "updated_at": "2026-10-28",
   "description": "Curadoria de vídeos jornalísticos e posts públicos diretamente relacionados à crise de água em Paraíso do Tocantins (outubro de 2026). Links de conteúdos originais, sem hospedagem de cópias nem reprodução automática.",
   "videos": [
     {
@@ -89,9 +89,53 @@
       "description": "Investigação aberta após relatos de odor incomum na água; não apresenta laudo conclusivo.",
       "url": "https://globoplay.globo.com/v/15110808/",
       "provider": "Globoplay"
+    },
+    {
+      "id": "bdt-pontos",
+      "date": "2026-10-23",
+      "title": "Paraíso do Tocantins ampliou pontos de distribuição de água potável",
+      "source": "TV Anhanguera · Bom Dia Tocantins",
+      "duration": "48 seg",
+      "theme": "Rodízio",
+      "description": "Notícia sobre a ampliação dos pontos gratuitos de água potável durante a crise, sem confirmar estoque em tempo real.",
+      "url": "https://globoplay.globo.com/v/15115249/",
+      "provider": "Globoplay"
+    },
+    {
+      "id": "bdt-moradores",
+      "date": "2026-10-21",
+      "title": "Moradores de Paraíso cobram solução para falta de abastecimento de água",
+      "source": "TV Anhanguera · Bom Dia Tocantins",
+      "duration": "6 min",
+      "theme": "Rodízio",
+      "description": "Relatos de moradores sobre dificuldades no abastecimento por mais de 20 dias.",
+      "url": "https://globoplay.globo.com/v/15108758/",
+      "provider": "Globoplay"
+    },
+    {
+      "id": "bdt-tce",
+      "date": "2026-10-22",
+      "title": "TCE cobra medidas sobre falta de água em Paraíso",
+      "source": "TV Anhanguera · Bom Dia Tocantins",
+      "duration": "5 min",
+      "theme": "Direitos",
+      "description": "Tribunal de Contas questiona medidas de fiscalização da ATR e cumprimento de recomendações anteriores.",
+      "url": "https://globoplay.globo.com/v/15112344/",
+      "provider": "Globoplay"
     }
   ],
   "social": [
+    {
+      "id": "insta-crise-hidrica",
+      "date": null,
+      "source": "Prefeitura de Paraíso · Instagram (post indexado no portal municipal)",
+      "title": "O trabalho para enfrentar a crise hídrica em Paraíso",
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/reel/DfANyUoxZQe/",
+      "official_site": "https://paraiso.to.gov.br/governo-de-paraiso-cobra-solucoes-da-brk-e-acompanha-medidas-para-regularizar-abastecimento-de-agua-em-paraiso/",
+      "assessment": "O link e o início do texto aparecem no bloco de Instagram do portal oficial da Prefeitura em consulta de 28/10. A data exata da postagem, o vídeo completo e os comentários não foram acessíveis; o comunicado oficial municipal de 27/10 é a fonte para as informações operacionais.",
+      "certainty": "URL vinculada pelo portal municipal; data e conteúdo integral não confirmados"
+    },
     {
       "id": "insta-caminhoes",
       "date": "2026-10-21",
@@ -137,5 +181,5 @@
       "category": "Canal oficial"
     }
   ],
-  "methodology": "A playlist reúne vídeos identificados por título e URL individuais no Globoplay; assistir pode exigir acesso à plataforma. Reels e posts do Instagram foram extraídos da seção de redes sociais da página oficial municipal, porém as postagens em si podem exigir login e seu texto integral não foi acessível; confirmação temática complementada por notícias oficiais do município. Notícias ou vídeos de moradores sem URL pública exata não são atribuídos a uma conta inventada. Não constitui prova de disponibilidade de água ou potabilidade. Checagem 25/10: cobertura da TV Anhanguera sobre captação de água bruta no Parque das Águas foi localizada em reprodução jornalística datada de 24/10, porém não se confirmou URL individual da reportagem original no Globoplay. Por isso, não foi incluída na playlist como vídeo direto. Nenhum novo post de rede social com URL individual e conteúdo verificáveis nesta checagem. Checagem de 26/10/2026: pesquisados vídeos do Globoplay/TV Anhanguera, YouTube e resultados públicos de Instagram/Facebook da Prefeitura, BRK e imprensa; não foi identificado novo vídeo individual com URL e data confirmadas nem novo post público verificável diretamente sobre abastecimento. Playlist e posts anteriores preservados sem duplicação. A data updated_at registra conferência editorial, não novas publicações. Em 27/10 foram identificados no índice original do JA 2ª Edição dois vídeos de 20 e 21/10 com links individuais confirmados. Não foram encontradas postagens sociais novas com URL individual verificável; o acervo social anterior foi preservado."
+  "methodology": "A playlist reúne vídeos identificados por título e URL individuais no Globoplay; assistir pode exigir acesso à plataforma. Reels e posts do Instagram foram extraídos da seção de redes sociais da página oficial municipal, porém as postagens em si podem exigir login e seu texto integral não foi acessível; confirmação temática complementada por notícias oficiais do município. Notícias ou vídeos de moradores sem URL pública exata não são atribuídos a uma conta inventada. Não constitui prova de disponibilidade de água ou potabilidade. Checagem 25/10: cobertura da TV Anhanguera sobre captação de água bruta no Parque das Águas foi localizada em reprodução jornalística datada de 24/10, porém não se confirmou URL individual da reportagem original no Globoplay. Por isso, não foi incluída na playlist como vídeo direto. Nenhum novo post de rede social com URL individual e conteúdo verificáveis nesta checagem. Checagem de 26/10/2026: pesquisados vídeos do Globoplay/TV Anhanguera, YouTube e resultados públicos de Instagram/Facebook da Prefeitura, BRK e imprensa; não foi identificado novo vídeo individual com URL e data confirmadas nem novo post público verificável diretamente sobre abastecimento. Playlist e posts anteriores preservados sem duplicação. A data updated_at registra conferência editorial, não novas publicações. Em 27/10 foram identificados no índice original do JA 2ª Edição dois vídeos de 20 e 21/10 com links individuais confirmados. Não foram encontradas postagens sociais novas com URL individual verificável; o acervo social anterior foi preservado. Checagem de 28/10/2026: três vídeos da TV Anhanguera de 21, 22 e 23/10 foram localizados por título e URL individual no Globoplay e adicionados sem duplicação. Um reel adicional foi identificado pelo link diretamente exibido no bloco de Instagram do site oficial municipal, mas sua data e conteúdo integral não foram acessíveis e foram explicitamente marcados como não confirmados. Nenhum comentário ou story foi usado para alterar dados operacionais."
 }
