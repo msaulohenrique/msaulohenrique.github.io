@@ -1,7 +1,40 @@
 {
-  "updated_at": "2026-11-06",
+  "updated_at": "2026-11-07",
   "description": "Curadoria de vídeos jornalísticos e posts públicos diretamente relacionados à crise de água em Paraíso do Tocantins (outubro de 2026). Links de conteúdos originais, sem hospedagem de cópias nem reprodução automática.",
   "videos": [
+    {
+      "id": "ja2-poco-31out",
+      "date": "2026-10-31",
+      "title": "BRK perfura poço profundo para reforçar abastecimento em Paraíso",
+      "source": "TV Anhanguera · JA 2ª Edição – TO",
+      "duration": "4 min",
+      "theme": "Poços",
+      "description": "Reportagem sobre perfuração de poço profundo para reforçar o abastecimento emergencial.",
+      "url": "https://globoplay.globo.com/v/15149866/",
+      "provider": "Globoplay"
+    },
+    {
+      "id": "ja2-medidas-02nov",
+      "date": "2026-11-02",
+      "title": "Prefeitura de Paraíso formaliza medidas diante da crise hídrica",
+      "source": "TV Anhanguera · JA 2ª Edição – TO",
+      "duration": "5 min",
+      "theme": "Fiscalização",
+      "description": "Reportagem sobre medidas da Prefeitura junto a TCE, ANA, Procon e Poder Judiciário.",
+      "url": "https://globoplay.globo.com/v/15153440/",
+      "provider": "Globoplay"
+    },
+    {
+      "id": "ja2-escolas-04nov",
+      "date": "2026-11-04",
+      "title": "Crise hídrica segue em Paraíso do Tocantins e afeta escolas",
+      "source": "TV Anhanguera · JA 2ª Edição – TO",
+      "duration": "3 min",
+      "theme": "Escolas",
+      "description": "Reportagem da TV Anhanguera informa que, com exceção do Colégio Militar, outras dez escolas seguiam sem atividades presenciais na data da reportagem.",
+      "url": "https://globoplay.globo.com/v/15160394/",
+      "provider": "Globoplay"
+    },
     {
       "id": "ja2-moradores-cobram-30out",
       "date": "2026-10-30",
