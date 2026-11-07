@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-06",
-  "status": "Consulta de 06/11/2026, manhã: sem novo comunicado operacional de 05–06/11 que confirme normalização ou altere rodízio. Última nota primária BRK de 04/11 mantém contingência, recuperação gradual insuficiente do Rio Coco, equipes 24h, poço tubular profundo informado como ativado e manobras por horários. Rodízio histórico R1 13h–00h59 e R2 01h–12h59 preservado como programação, não como disponibilidade real; divergências de bairros e pressão domiciliar sem validação. Prefeitura reafirma seis pontos municipais gratuitos em nota de 02/11, mas sem verificação de estoque, funcionamento físico ou laudos individuais em 06/11. Prefeitura publicou em 05/11 adesão ao AdaptaCidades (planejamento climático de longo prazo, sem efeito operacional comprovado no abastecimento). Sem novos laudos conclusivos, vídeos ou posts sociais individuais verificáveis encontrados nesta consulta.",
+  "checked_at": "2026-11-07",
+  "status": "Consulta documental de 07/11/2026, manhã: BRK publicou comunicado datado de 05/11 mantendo contingência, recuperação gradual insuficiente do Rio Coco e distribuição por horários; sem nova grade oficial de bairros, encerramento do rodízio ou pressão residencial comprovada. Mantidas janelas históricas R1 13h–00h59 e R2 01h–12h59 apenas como programação. Seis pontos municipais anunciados, sem aferição física de estoque/funcionamento ou laudos individuais. Globoplay confirma reportagens de 31/10, 02/11 e 04/11, incorporadas à playlist. Nenhum post social novo com URL individual e data verificadas.",
   "regions": [
     {
       "number": 1,
@@ -43,6 +43,13 @@
     }
   ],
   "notices": [
+    {
+      "date": "05/11/2026",
+      "source": "BRK | Saneatins — comunicado oficial",
+      "title": "BRK publica atualização de 05/11 mantendo contingência e distribuição por horários",
+      "description": "Nota de 05/11 confirma recuperação gradual insuficiente do Rio Coco, mobilização 24h, reforço por poços e caminhões-pipa e manutenção das manobras por horários. Não publica nova grade por bairros, medição domiciliar de pressão ou encerramento do rodízio. Conteúdo operacional semelhante à nota de 04/11; nova URL primária confirmada.",
+      "url": "https://www.brkambiental.com.br/tocantins/aguiarnopolis/comunicado-atualizacao-paraiso-do-tocantins-1"
+    },
     {
       "date": "04/11/2026",
       "source": "BRK | Saneatins — comunicado oficial",
