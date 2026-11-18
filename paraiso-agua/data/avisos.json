@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-17",
-  "status": "Consulta documental de 17/11/2026, manhã: último comunicado operacional específico identificado da BRK/Saneatins permanece o de 05/11, informando recuperação gradual insuficiente do Rio Coco e manutenção das medidas de contingência. Não foi confirmada normalização integral, nova programação oficial de bairros ou medição de pressão por setor. Rodízio iniciado em 11/10 mantido apenas como referência histórica (Região 1: 13h–00h59; Região 2: 01h–12h59), sem garantia de água na rede. Prefeitura anunciou seis pontos gratuitos em 29/10, sem confirmação de disponibilidade física atual ou laudos individuais. Buscas públicas em Prefeitura, BRK, Governo/ATS/ATR, MPTO, Procon, imprensa, redes sociais e Globoplay/YouTube não identificaram novos itens individuais com URL, data e autoria verificáveis para inclusão. Regiões, avisos e pontos preservados.",
+  "checked_at": "2026-11-18",
+  "status": "Consulta documental de 18/11/2026, manhã: Câmara Municipal publicou em 16/11 instauração de CPI para investigar a crise de abastecimento e atuação da BRK, com comissão instituída pela Portaria 01939/2026 de 12/11. Último comunicado operacional específico da BRK localizado continua sendo 05/11: recuperação gradual insuficiente do Rio Coco e manutenção da contingência. Não foi confirmada normalização, nova grade oficial de bairros nem pressão efetiva por setor. Rodízio de 11/10 permanece referência histórica (Região 1: 13h–00h59; Região 2: 01h–12h59), sem garantia de fornecimento. Prefeitura anunciou seis pontos gratuitos em 29/10, sem aferição de disponibilidade ou laudo individual atualizado. Pesquisa pública de redes sociais e vídeos não confirmou novas URLs individuais com autoria/data/conteúdo suficientes. Preservados regions e points.",
   "regions": [
     {
       "number": 1,
@@ -43,6 +43,13 @@
     }
   ],
   "notices": [
+    {
+      "date": "16/11/2026",
+      "source": "Câmara Municipal de Paraíso do Tocantins — publicação institucional oficial",
+      "title": "Câmara instaura CPI para investigar crise hídrica e atuação da BRK",
+      "description": "Câmara informa aprovação unânime do Requerimento 361/2026 e formalização da CPI pela Portaria 01939/2026, assinada em 12/11. Presidente Jozival Barbosa, relator Professor Flávio Eliziário e membro Nilson Catarino. Prazo inicial de 120 dias, prorrogável conforme regras da comissão. A instauração é fato institucional confirmado, não julgamento de responsabilidade nem comprovação de normalização ou mudança do rodízio.",
+      "url": "https://www.paraisodotocantins.to.leg.br/camara-municipal-instaura-cpi-para-investigar-crise-no-abastecimento-de-agua-em-paraiso-do-tocantins/"
+    },
     {
       "date": "05/11/2026",
       "source": "BRK | Saneatins — comunicado oficial",
