@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-18",
-  "status": "Consulta documental de 18/11/2026, manhã: Câmara Municipal publicou em 16/11 instauração de CPI para investigar a crise de abastecimento e atuação da BRK, com comissão instituída pela Portaria 01939/2026 de 12/11. Último comunicado operacional específico da BRK localizado continua sendo 05/11: recuperação gradual insuficiente do Rio Coco e manutenção da contingência. Não foi confirmada normalização, nova grade oficial de bairros nem pressão efetiva por setor. Rodízio de 11/10 permanece referência histórica (Região 1: 13h–00h59; Região 2: 01h–12h59), sem garantia de fornecimento. Prefeitura anunciou seis pontos gratuitos em 29/10, sem aferição de disponibilidade ou laudo individual atualizado. Pesquisa pública de redes sociais e vídeos não confirmou novas URLs individuais com autoria/data/conteúdo suficientes. Preservados regions e points.",
+  "checked_at": "2026-11-19",
+  "status": "Consulta documental de 19/11/2026, manhã: reportagem secundária de 17/11 (Tocantins Alerta, atribuindo apuração ao g1/TV Anhanguera) descreve imagens de 16/11 com recuperação visual parcial da represa do Rio Coco, ainda em volume morto, e relatos pontuais de melhora e intermitência; sem medição hidrológica ou comprovação de qualidade. Último comunicado operacional oficial da BRK localizado é de 05/11, mantendo contingência. CPI anunciada pela Câmara em 16/11 permanece em investigação. Sem confirmação de normalização, nova grade oficial de bairros, pressão por setor ou disponibilidade física dos seis pontos gratuitos anunciados em 29/10. Rodízio histórico de 11/10 preservado (Região 1 13h–00h59; Região 2 01h–12h59), sem garantia de fornecimento. Redes sociais e vídeos sem novas URLs individuais primárias validadas.",
   "regions": [
     {
       "number": 1,
@@ -43,6 +43,13 @@
     }
   ],
   "notices": [
+    {
+      "date": "17/11/2026",
+      "source": "Tocantins Alerta — Redação; reprodução atribuída ao g1/TV Anhanguera (fonte secundária)",
+      "title": "Imagens de 16/11 indicam recuperação parcial da represa; relatos não comprovam normalização",
+      "description": "Reportagem secundária publicada em 17/11 relata imagens de 16/11 com aumento visual do nível da represa do Rio Coco, ainda descrita como em volume morto. Moradores relatam melhora pontual e intermitência; há relato de água esbranquiçada no Novo Jardim Paulista, sem laudo. Não equivale a medição de nível útil, confirmação de potabilidade, pressão por bairro, alteração do rodízio ou normalização. URL original individual do g1/TV Anhanguera e vídeo não confirmados; não incluir na playlist.",
+      "url": "https://tocantinsalerta.com.br/destaque/represa-que-abastece-paraiso-do-to-apresenta-aumento-no-volume-de-agua-apos-meses-de-estiagem/"
+    },
     {
       "date": "16/11/2026",
       "source": "Câmara Municipal de Paraíso do Tocantins — publicação institucional oficial",
