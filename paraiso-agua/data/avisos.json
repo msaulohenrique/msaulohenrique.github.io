@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-23",
-  "status": "Consulta documental de 23/11/2026, manhã: BRK mantém como última nota específica localizada a de 05/11, com recuperação gradual insuficiente do Rio Coco e plano de contingência; página de avisos consultada. Prefeitura mantém anúncio de seis pontos gratuitos, sem disponibilidade real, pressão domiciliar ou laudos individuais confirmados. CPI divulgada pela Câmara em 16/11, sem conclusão verificada. Sem nova grade oficial de bairros e horários; mantido rodízio histórico iniciado em 11/10 (Região 1 13h–00h59; Região 2 01h–12h59). Buscas em fontes oficiais, imprensa e redes/vídeos não trouxeram novos itens individualmente comprovados. Programação não equivale a fornecimento real.",
+  "checked_at": "2026-11-25",
+  "status": "Consulta documental de 25/11/2026: última nota operacional BRK localizada de 05/11, sem confirmação de normalização ou nova grade. Reportagens de 17/11 atribuem à TV Anhanguera recuperação visual parcial da represa, sem medição independente. CPI anunciada em 16/11. Seis pontos municipais anunciados em 29/10, sem estoque, pressão ou laudos atuais confirmados. Horários históricos preservados; programação não garante fornecimento.",
   "regions": [
     {
       "number": 1,
@@ -43,6 +43,13 @@
     }
   ],
   "notices": [
+    {
+      "date": "17/11/2026",
+      "source": "Capital Com Notícias | Redação CCN",
+      "title": "Represa apresenta recuperação visual parcial",
+      "description": "Fonte secundária que atribui a apuração à TV Anhanguera; reservatório ainda descrito em volume morto e relatos de fornecimento irregular. Não é medição independente nem confirmação de normalização.",
+      "url": "https://www.capitalcomnoticias.com.br/noticia/represa-que-abastece-paraiso-do-to-apresenta-aumento-no-volume-de-agua-apos-meses-de-estiagem-video"
+    },
     {
       "date": "17/11/2026",
       "source": "Tocantins Alerta — Redação; reprodução atribuída ao g1/TV Anhanguera (fonte secundária)",
